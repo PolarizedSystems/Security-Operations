@@ -24,5 +24,4 @@ All work is performed in **Polarized Systems**, my enterprise lab environment: a
 ## Related Portfolios
 
 - [Vulnerability Management](https://github.com/PolarizedSystems/Vulnerability-Management)
-- [Incident Response Management](https://github.com/PolarizedSystems/Incident-Response-Management)
-- [Reporting & Communication](https://github.com/PolarizedSystems/Reporting-and-Communication)
+- [Incident Response](https://github.com/PolarizedSystems/Cybersecurity-Incident-Response)
