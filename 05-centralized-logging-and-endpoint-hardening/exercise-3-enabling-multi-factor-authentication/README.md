@@ -1,0 +1,90 @@
+# Exercise 3 – Enabling Multi-Factor Authentication
+
+[← Back to Lab Overview](../README.md)
+
+---
+
+## Overview
+
+A password is a single secret, and single secrets get phished, guessed, reused and leaked. **Multi-factor authentication (MFA)** breaks that single point of failure by requiring a second, independent factor — something the user *has* (a smart card, a token) in addition to something they *know* (a PIN). Even a fully compromised password buys an attacker nothing if they can't also present the physical factor.
+
+In this exercise I created an Active Directory user in the **Polarized Systems** domain and enforced **smart-card-required (certificate-based) multi-factor authentication** on the account, then demonstrated the control holding at the logon screen — password-only interactive logon is refused.
+
+> 🔎 **"Smart card required" = certificate-based MFA.** Ticking *Smart card is required for interactive logon* tells the domain controller to reject username-and-password logon for that account entirely. The user must instead present a smart card carrying a logon certificate and enter its PIN. That combination — the physical card (*have*) plus the PIN (*know*) — is true two-factor authentication, enforced by Active Directory itself with no third-party software. Setting and demonstrating the control does not require owning a physical card: the enforcement is visible the moment password logon is attempted and refused.
+
+## Devices
+
+- **corp-dc-001** – Windows Server – Domain Controller, Active Directory Users and Computers (192.168.20.2)
+- **corp-wks-001** – Windows 11 – domain workstation used to test the enforced logon (192.168.30.3)
+
+---
+
+## Task 1 – Create the Active Directory User
+
+1. Log into the **corp-dc-001** domain controller.
+
+   ![Log into the domain controller](screenshots/exercise-3/e3-01-login-domain-controller.png)
+
+2. Open **Server Manager → Tools → Active Directory Users and Computers**.
+
+   ![Open Active Directory Users and Computers](screenshots/exercise-3/e3-02-open-aduc.png)
+
+3. Under **Polarized Systems → Users → Finance**, right-click and choose **New → User**.
+
+   ![New user in the Finance OU](screenshots/exercise-3/e3-03-new-user-finance-ou.png)
+
+4. Set the account's password and options.
+
+   ![Set the user password](screenshots/exercise-3/e3-04-set-user-password.png)
+
+5. Review the new-account summary.
+
+   ![Confirm the new user](screenshots/exercise-3/e3-05-confirm-new-user.png)
+
+6. Finish — the user **Ella Smith** (`ella.smith@corp.polarizedsystems.com`) is created in the Finance OU.
+
+   ![User created](screenshots/exercise-3/e3-06-open-user-properties.png)
+
+---
+
+## Task 2 – Enforce Smart-Card MFA
+
+7. Right-click the new user and open **Properties → Account** tab. Under **Account options**, tick **Smart card is required for interactive logon**, then **Apply**.
+
+   ![Smart card is required for interactive logon](screenshots/exercise-3/e3-07-smart-card-required.png)
+
+> 🔎 **What this one checkbox changes.** The moment it is applied, Active Directory resets the account's password to a long random value it manages internally and stops accepting interactive password logon for the user. From then on the account can only log on with its smart-card certificate and PIN. It is a single, auditable control that upgrades an account from single-factor to two-factor authentication domain-wide.
+
+8. The account is created and the control is set.
+
+   ![User account in ADUC](screenshots/exercise-3/e3-08-user-created.png)
+
+---
+
+## Task 3 – Verify the Control Is Enforced
+
+9. On **corp-wks-001**, at the logon screen choose **Other user**.
+
+   ![Other user at the logon screen](screenshots/exercise-3/e3-09-login-other-user.png)
+
+10. Attempt a normal **password** logon as `POLARIZED\Ella.Smith`.
+
+    ![Attempt password logon as Ella.Smith](screenshots/exercise-3/e3-10-ella-smith-credentials.png)
+
+11. The logon is refused with **"You must use Windows Hello or a smart card to sign in."** — the MFA requirement is enforced exactly as configured.
+
+    ![MFA enforced – smart card required](screenshots/exercise-3/e3-11-mfa-enforced.png)
+
+> 🔎 **This refusal is the proof.** The point of the exercise isn't to log in — it's to confirm the control *blocks* single-factor logon. Seeing Active Directory reject a valid-looking username and password, and demand the second factor instead, is the demonstration that the MFA policy is live and enforced at the point of authentication.
+
+---
+
+## Stakeholder Takeaway
+
+**What this delivers for the business:** High-value accounts can be hardened so that a stolen or phished password is, by itself, worthless — the attacker still cannot authenticate without the physical factor. Credential theft is the entry point for the overwhelming majority of breaches, and enforced MFA is the single highest-impact control against it. Applying it to privileged and sensitive-role accounts (finance, administrators, domain admins) directly shrinks the organization's most-exploited attack path.
+
+**Production next steps I would recommend:** issue real smart cards or deploy Windows Hello for Business / FIDO2 security keys so enforced accounts have a working second factor to log on with, roll the requirement out to all privileged and high-risk accounts via policy rather than per-user, and — tying back to Exercise 1 — forward the domain controller's security logs to Splunk so that smart-card logon successes, failures and the *"password logon denied"* events are centrally monitored and alertable.
+
+---
+
+[← Previous: Exercise 2 – Encrypting Sensitive Data](../exercise-2-encrypting-sensitive-data/README.md) | [Back to Lab Overview](../README.md)

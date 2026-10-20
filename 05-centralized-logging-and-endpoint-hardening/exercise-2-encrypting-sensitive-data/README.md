@@ -1,0 +1,105 @@
+# Exercise 2 – Encrypting Sensitive Data with BitLocker
+
+[← Back to Lab Overview](../README.md)
+
+---
+
+## Overview
+
+Centralized logging protects the *record* of what happened. Encryption protects the *data itself*. A server holding personally identifiable information (PII) or cardholder data is only as secure as the disk it sits on — and a disk, unlike a running operating system, has no login prompt. Pull the drive, mount it on another machine, and every file is readable in plain text. **Encryption at rest** closes that gap: without the key, the volume is unreadable no matter who holds the hardware.
+
+In this exercise I installed the **BitLocker Drive Encryption** feature on a Windows member server (`corp-win-svr-001`) and encrypted a dedicated data volume (**E:**) representing sensitive data, protecting it with a password unlock and an escrowed recovery key.
+
+> 🔎 **Why a dedicated data volume?** Rather than encrypting the operating-system drive, this demonstrates the most common real-world pattern: a separate volume that holds the sensitive data (a database, a file share, an export of cardholder records) is encrypted on its own. It can be unlocked with a password at mount time with no dependency on a TPM, and the sensitive data is protected the moment the volume is at rest — exactly how you would protect a data drive on a file server or database host.
+
+## Device
+
+- **corp-win-svr-001** – Windows Server – member server hosting the sensitive data volume (192.168.20.6)
+
+---
+
+## Task 1 – Install the BitLocker Drive Encryption Feature
+
+1. On **corp-win-svr-001**, open **Server Manager → Manage → Add Roles and Features**.
+
+   ![Server Manager – Add Roles and Features](screenshots/exercise-2/e2-01-server-manager-add-roles.png)
+
+2. Click **Next** past *Before You Begin*.
+
+   ![Before you begin](screenshots/exercise-2/e2-02-before-you-begin.png)
+
+3. Select **Role-based or feature-based installation** and continue.
+
+   ![Installation type](screenshots/exercise-2/e2-03-installation-type.png)
+
+4. On the **Features** list, tick **BitLocker Drive Encryption**. A prompt appears for the required management tools — click **Add Features**.
+
+   ![Add required features](screenshots/exercise-2/e2-04-add-features-prompt.png)
+
+5. With **BitLocker Drive Encryption** selected, continue.
+
+   ![Select the BitLocker feature](screenshots/exercise-2/e2-05-select-bitlocker-feature.png)
+
+6. Review the confirmation and click **Install**.
+
+   ![Confirm installation](screenshots/exercise-2/e2-06-confirm-installation.png)
+
+7. The feature installs.
+
+   ![Installation progress](screenshots/exercise-2/e2-07-installation-progress.png)
+
+8. BitLocker requires a reboot to finish wiring itself into the OS — restart the server.
+
+   ![Restart the server](screenshots/exercise-2/e2-08-restart-server.png)
+
+9. Provide a planned-shutdown reason and continue.
+
+   ![Shutdown reason](screenshots/exercise-2/e2-09-shutdown-reason.png)
+
+---
+
+## Task 2 – Encrypt the Data Volume
+
+10. After the reboot, open **File Explorer**.
+
+    ![Reopen File Explorer](screenshots/exercise-2/e2-10-reopen-file-explorer.png)
+
+11. Right-click the data volume **New Volume (E:)** and choose **Turn on BitLocker**.
+
+    ![Turn on BitLocker](screenshots/exercise-2/e2-11-turn-on-bitlocker.png)
+
+12. Choose **Use a password to unlock the drive** and set a strong password. This is what will be required to mount the volume.
+
+    ![Password unlock](screenshots/exercise-2/e2-12-password-unlock.png)
+
+> 🔎 **Password unlock vs. TPM.** On a data volume, BitLocker can unlock with a password and needs no Trusted Platform Module — ideal for a server data drive or a virtualized host. On an OS drive you would typically bind the key to the machine's **TPM** so the disk only decrypts on that specific, un-tampered hardware. Different unlock methods, same underlying protection: the data is ciphertext until the correct key is presented.
+
+13. Back up the **recovery key**. Save it to a file in a safe location (never on the volume being encrypted).
+
+    ![Save the recovery key](screenshots/exercise-2/e2-13-save-recovery-key.png)
+
+> 🔎 **The recovery key is the whole ballgame.** If the password is forgotten or the hardware changes, the recovery key is the *only* way back into the data — and anyone who has it can unlock the volume. In production this key is escrowed automatically into **Active Directory** (or Microsoft Entra / Intune) so it is centrally held, access-controlled and auditable, never saved to a loose file or a sticky note. This lab saves it to a file to demonstrate the step; the Stakeholder Takeaway notes the production control.
+
+14. Choose **Encrypt used disk space only** — faster, and appropriate for a freshly created volume.
+
+    ![Encrypt used space only](screenshots/exercise-2/e2-14-encrypt-used-space.png)
+
+15. Confirm and **Start encrypting**.
+
+    ![Start encrypting](screenshots/exercise-2/e2-15-start-encrypting.png)
+
+16. Encryption runs and the recovery key file is saved. The **E:** volume is now protected at rest — unreadable without the password or recovery key.
+
+    ![Recovery key saved / encryption underway](screenshots/exercise-2/e2-16-recovery-key-saved.png)
+
+---
+
+## Stakeholder Takeaway
+
+**What this delivers for the business:** The sensitive-data volume on this server is now encrypted at rest. If the physical disk — or, in a virtual environment, the underlying VMDK — is stolen, copied, or improperly decommissioned, the data on it is cryptographically useless to whoever holds it. For any organization handling PII, cardholder data (PCI DSS), or health records (HIPAA), encryption at rest is not optional; it is a baseline control that directly reduces breach-notification exposure, because data that was encrypted when lost is generally not treated as a reportable breach.
+
+**Production next steps I would recommend:** escrow BitLocker recovery keys into **Active Directory** via Group Policy (so keys are centrally managed and never stored on loose files), enforce BitLocker across all data-bearing servers and workstations through policy rather than per-host, and pair it with the centralized logging from Exercise 1 so that BitLocker events (unlocks, recovery-key usage, tamper events) are themselves collected and monitored.
+
+---
+
+[← Previous: Exercise 1 – Deploy Splunk Enterprise on Linux](../exercise-1-deploy-splunk-enterprise-on-linux/README.md) | [Back to Lab Overview](../README.md) | [Next: Exercise 3 – Enabling Multi-Factor Authentication →](../exercise-3-enabling-multi-factor-authentication/README.md)
