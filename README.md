@@ -2,7 +2,13 @@
 
 ![Polarized Systems — Enterprise Network Architecture](images/enterprise-topology.png)
 
-A Security Operations Center turns raw telemetry into decisions: gathering threat intelligence, hardening systems and networks, and spotting malicious activity before it becomes an incident. These projects show how I collect, analyze and act on security data across an enterprise environment.
+Security operations is the day-in, day-out work of defense — watching the environment, cutting through the noise, and catching what doesn't belong before it turns into an incident.
+
+The best SOCs don't just wait for alarms to go off; they already know what normal looks like, so anything out of place stands out fast.
+
+Getting there takes real visibility — logs centralized, endpoints monitored, traffic understood — paired with the judgment to tell a true threat from a false alarm.
+
+These projects are me building that visibility and sharpening that judgment, hands-on, across a full enterprise environment.
 
 All work was performed in **Polarized Systems**, my enterprise lab environment: a Windows Active Directory domain (`corp.polarizedsystems.com`) with segmented server, workstation and Security Operations subnets routed through a pfSense firewall.
 
