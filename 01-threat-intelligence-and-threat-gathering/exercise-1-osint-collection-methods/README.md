@@ -6,7 +6,11 @@
 
 ## Overview
 
-Open-source intelligence (OSINT) is information gathered from publicly available sources: websites, archives, domain registries, social media, and data that has leaked onto the public internet. Attackers use OSINT to plan targeted attacks; defenders use the same techniques to see their organization through an attacker's eyes and reduce what is exposed.
+Open-source intelligence (OSINT) is information gathered from publicly available sources — and that range is far wider than most people assume. News stories, magazine features, user-uploaded videos and photos on social networks, blogs, forums, government bulletins, and even deep- and dark-web searches are all fair game, alongside websites, archives, domain registries, and data that has leaked onto the public internet. OSINT is a cornerstone of both government and private investigations, and as the volume of data generated online keeps climbing, the real skill shifts from simply *finding* information to developing effective strategies for locating, cataloging, and analyzing the flood of it.
+
+Two properties make OSINT especially powerful for an attacker. First, the information is freely available to anyone who looks. Second, collecting it **leaves no trace** on the target — passively reading public sources is indistinguishable from ordinary internet traffic, so the organization never knows reconnaissance is underway. Defenders use the exact same techniques in reverse: to see the organization through an attacker's eyes and reduce what is exposed before it can be used against them.
+
+> 🔎 **Why a small digital footprint matters.** The "priority information" attackers harvest from public sources includes executive email addresses and phone numbers, employee names and roles, overly detailed *About* and careers pages, the website's code and build stack, wireless-network and packet-level details, and the metadata buried inside published images. Any one of them looks harmless on its own; assembled, they become the blueprint for a convincing phishing or pretexting campaign. Limiting what an organization exposes is a frontline defensive control, not an afterthought — which is exactly why an analyst assesses that footprint first.
 
 > ### 🎯 Target Selection & Scope
 >
