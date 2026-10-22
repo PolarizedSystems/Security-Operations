@@ -16,6 +16,8 @@ A core idea runs through both exercises: **you cannot detect what you do not rec
 - **Exercise 1 — Windows:** Enabled domain-wide logon auditing and an account-lockout threshold with Group Policy, simulated an SMB password-guessing attack from Kali Linux, then built a PowerShell hunting script to surface the resulting failed-logon events (Event ID 4625).
 - **Exercise 2 — Linux:** Reviewed login and reboot history on a Rocky Linux server with the `last` family of commands, then simulated an SSH brute-force attack and confirmed both the failed attempts and the attacker's eventual successful login were visible in the authentication records.
 
+> 🔎 **Detection begins before the attack, not during it.** Every exercise here deliberately pairs a configuration step with an attack and a detection step, because the telemetry that catches an intruder has to be enabled *in advance*. Logon auditing and an account-lockout threshold are worthless if they're switched on after the brute-force attempt — by then the evidence is already gone. The discipline a SOC analyst builds is to decide what must be recorded, and what "normal" looks like, long before anyone needs to go looking.
+
 ---
 
 ## Lab Topology

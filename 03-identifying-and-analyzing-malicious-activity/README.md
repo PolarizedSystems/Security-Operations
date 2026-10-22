@@ -16,6 +16,8 @@ Across two exercises I monitored live resource usage on Windows and Linux, then 
 - **Exercise 1 — Analyze Resource Utilization:** Inspected processes, CPU, memory, I/O and devices on a Windows member server with Sysinternals Process Explorer, then monitored a Linux server with `top` and `htop`.
 - **Exercise 2 — Analyze Account & Group Management:** Enabled Security Group Management auditing with Group Policy, created a test user and escalated it to Domain Admins, then detected the change through Event IDs **4728** and **4737**.
 
+> 🔎 **The quietest attacks look exactly like normal administration.** Adding a user to Domain Admins isn't an exploit — it's a routine action Active Directory performs legitimately all the time. What makes it *detectable* is not the action but the context: who did it, from where, and whether it was expected. The same holds for resource load, where a malicious process hides inside ordinary CPU and memory usage. Analysis is the skill of separating the one abnormal event from the sea of normal ones it's hiding in.
+
 ---
 
 ## Lab Topology

@@ -14,6 +14,8 @@ Identifying malicious activity comes down to two questions: *what is actually cr
 - **Exercise 1 — Monitoring Network Activity:** Captured live traffic on Kali Linux with Wireshark, customized the display to surface destination addresses and ports, applied display filters to isolate specific conversations, then captured ICMP and HTTP traffic from the command line with tcpdump and analyzed the saved captures.
 - **Exercise 2 — Validating Domain Names & IP Addresses:** Used WHOIS, AbuseIPDB and VirusTotal to research domain ownership, check IP addresses for a history of abuse, and scan URLs and addresses for malicious reputation.
 
+> 🔎 **A packet never lies, but a reputation can be bought.** Traffic analysis and reputation lookups answer different halves of the same question and cover each other's blind spots. Capturing packets shows exactly what a host is doing right now, but not whether the destination is hostile; threat-intelligence services reveal a domain's history, but not what your systems are doing with it this moment. An analyst who leans on only one will eventually be fooled — by a clean reputation on a brand-new malicious domain, or by suspicious-looking traffic to a perfectly legitimate service.
+
 ---
 
 ## Lab Topology

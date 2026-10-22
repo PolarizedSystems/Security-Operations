@@ -15,6 +15,8 @@ This lab deploys **Wazuh**, an open-source SIEM and XDR platform, as a second, i
 - **Exercise 2 — Deploy a Windows Agent:** Generated a tailored enrollment command from the dashboard and installed the Wazuh agent on a Windows Server endpoint, confirming it active and reporting.
 - **Exercise 3 — Deploy a Linux Agent:** Enrolled an Ubuntu endpoint with the native `.deb` agent as a `systemd` service, bringing both Windows and Linux under a single pane of glass.
 
+> 🔎 **Logging tells you what happened; agent-based monitoring tells you what's changing.** A log search is reactive — it answers questions only after you think to ask them. A Wazuh agent is proactive: it watches each host continuously for file-integrity changes, policy drift, and rootkits, and raises an alert without anyone running a query. Standing Wazuh up alongside the Splunk stack from the previous lab is deliberate — mature security operations rarely rely on a single tool, and fluency across two of the industry's most common platforms is what the job actually looks like.
+
 ---
 
 ## Lab Topology
