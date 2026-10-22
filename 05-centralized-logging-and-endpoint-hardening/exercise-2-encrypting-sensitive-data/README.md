@@ -14,7 +14,7 @@ In this exercise I installed the **BitLocker Drive Encryption** feature on a Win
 
 ## Device
 
-- **corp-win-svr-001** – Windows Server – member server hosting the sensitive data volume (192.168.20.6)
+- **corp-win-svr-001** – Windows Server – member server hosting the sensitive data volume (192.168.20.7)
 
 ---
 

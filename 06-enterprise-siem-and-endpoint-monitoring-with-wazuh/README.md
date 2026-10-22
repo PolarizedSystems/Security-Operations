@@ -44,7 +44,6 @@ By the end of this lab, I was able to:
 | Hostname | IP Address | Operating System | Role in this lab |
 |----------|-----------|------------------|------------------|
 | `corp-pfsense-001` | — | pfSense | Firewall / router between subnets |
-| `corp-sw-001` | — | — | Core switch |
 | `soc-wazuh-002` | 192.168.40.11 | Ubuntu 22.04 LTS | Wazuh all-in-one SIEM (Ex 1) |
 | `corp-win-svr-001` | 192.168.20.7 | Windows Server 2025 | Windows agent endpoint (Ex 2) |
 | `corp-ubuntu-001` | 192.168.20.5 | Ubuntu 22.04 LTS | Linux agent endpoint (Ex 3) |

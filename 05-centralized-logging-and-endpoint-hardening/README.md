@@ -45,10 +45,9 @@ By the end of this lab, I was able to:
 | Hostname | IP Address | Operating System | Role in this lab |
 |----------|-----------|------------------|------------------|
 | `corp-pfsense-001` | — | pfSense | Firewall / router between subnets |
-| `corp-sw-001` | — | — | Core switch |
 | `soc-splunk-002` | 192.168.40.10 | Rocky Linux 10 | Splunk Enterprise indexer / SIEM (Ex 1) |
 | `corp-wks-001` | 192.168.30.3 | Windows 11 | Universal Forwarder log source (Ex 1) · MFA logon test (Ex 3) |
-| `corp-win-svr-001` | 192.168.20.6 | Windows Server | Member server — BitLocker data volume (Ex 2) |
+| `corp-win-svr-001` | 192.168.20.7 | Windows Server | Member server — BitLocker data volume (Ex 2) |
 | `corp-dc-001` | 192.168.20.2 | Windows Server | Domain Controller — Active Directory / MFA (Ex 3) |
 
 ---

@@ -12,7 +12,7 @@ Resource utilization is one of the first places malicious activity shows up. A c
 
 ## Devices
 
-- **corp-win-svr-001** – Windows Server – member server – Process Explorer (192.168.20.6)
+- **corp-win-svr-001** – Windows Server – member server – Process Explorer (192.168.20.7)
 - **corp-rhel-001** – Rocky Linux 10 – `top` / `htop` (192.168.20.4)
 
 ---

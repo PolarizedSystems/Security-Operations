@@ -42,7 +42,6 @@ By the end of this lab, I was able to:
 | Hostname | IP Address | Operating System | Role |
 |----------|-----------|------------------|------|
 | `corp-pfsense-001` | — | pfSense | Firewall / router between subnets |
-| `corp-sw-001` | — | — | Core switch |
 | `corp-dc-001` | 192.168.20.2 | Windows Server | Domain Controller (Group Policy) |
 | `corp-wks-001` | 192.168.30.3 | Windows 11 | OSINT research, threat intelligence and log analysis |
 

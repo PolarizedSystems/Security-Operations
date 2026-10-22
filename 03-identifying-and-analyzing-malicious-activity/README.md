@@ -45,9 +45,8 @@ By the end of this lab, I was able to:
 | Hostname | IP Address | Operating System | Role in this lab |
 |----------|-----------|------------------|------------------|
 | `corp-pfsense-001` | — | pfSense | Firewall / router between subnets |
-| `corp-sw-001` | — | — | Core switch |
 | `corp-dc-001` | 192.168.20.2 | Windows Server | Domain Controller — auditing and event analysis (Ex 2) |
-| `corp-win-svr-001` | 192.168.20.6 | Windows Server | Member server — Windows resource monitoring (Ex 1) |
+| `corp-win-svr-001` | 192.168.20.7 | Windows Server | Member server — Windows resource monitoring (Ex 1) |
 | `corp-rhel-001` | 192.168.20.4 | Rocky Linux 10 | Linux resource monitoring target (Ex 1) |
 
 ---

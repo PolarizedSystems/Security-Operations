@@ -44,7 +44,6 @@ By the end of this lab, I was able to:
 | Hostname | IP Address | Operating System | Role in this lab |
 |----------|-----------|------------------|------------------|
 | `corp-pfsense-001` | — | pfSense | Firewall / router between subnets |
-| `corp-sw-001` | — | — | Core switch |
 | `soc-kali-001` | 192.168.40.5 | Kali Linux | Packet capture and analysis — Wireshark, tcpdump (Ex 1) |
 | `corp-wks-001` | 192.168.30.3 | Windows 11 | Traffic generation and threat-intel validation (Ex 1 + 2) |
 

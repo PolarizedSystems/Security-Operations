@@ -46,7 +46,6 @@ By the end of this lab, I was able to:
 | Hostname | IP Address | Operating System | Role in this lab |
 |----------|-----------|------------------|------------------|
 | `corp-pfsense-001` | — | pfSense | Firewall / router between subnets |
-| `corp-sw-001` | — | — | Core switch |
 | `corp-dc-001` | 192.168.20.2 | Windows Server | Domain Controller — audit policy, PowerShell hunting, SSH attack source (Ex 2) |
 | `corp-rhel-001` | 192.168.20.4 | Rocky Linux 10 | Linux login-monitoring target (Ex 2) |
 | `corp-wks-001` | 192.168.30.3 | Windows 11 | Analyst workstation — remote log collection (Ex 1) |
