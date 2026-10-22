@@ -16,8 +16,6 @@ In this lab, I worked both sides of that problem:
 - **Open-source intelligence (OSINT):** I profiled an organization's public footprint the way an adversary would during reconnaissance, using browser developer tools, web archives, technology profilers, leak search engines, WHOIS data and social media search.
 - **Threat hunting and intelligence sources:** I reviewed SIEM and commercial threat-intelligence platforms, observed live attacker behavior on a research honeynet, hunted for logon failures in the Windows Security log, mapped activity to MITRE ATT&CK, and enabled firewall logging across the domain with Group Policy.
 
-> 🔎 **Threat intelligence only pays off when the two halves meet.** Looking outward with OSINT tells you what an attacker can discover about you; looking inward at your own logs and SIEM tells you who is already probing. Each is limited on its own — an exposed detail means little until you see it being used, and a logon failure means little until you know whose credentials are circulating publicly. The real value is in connecting the two: shrinking the footprint attackers reconnoiter, and recognizing that reconnaissance the moment it reaches your doorstep.
-
 ---
 
 ## Lab Topology
