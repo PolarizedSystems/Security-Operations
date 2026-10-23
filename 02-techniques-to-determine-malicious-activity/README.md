@@ -18,8 +18,6 @@ The project focuses on two primary areas of security investigation:
 
 The objective of this project was to develop practical experience in security event analysis, authentication monitoring, threat detection, and incident investigation across Windows and Linux systems. These exercises demonstrate the importance of audit configuration, log visibility, and investigative techniques used to identify malicious activity within enterprise Security Operations environments.
 
-> 🔎 **Detection begins before the attack, not during it.** Every exercise here deliberately pairs a configuration step with an attack and a detection step, because the telemetry that catches an intruder has to be enabled *in advance*. Logon auditing and an account-lockout threshold are worthless if they're switched on after the brute-force attempt — by then the evidence is already gone. The discipline a SOC analyst builds is to decide what must be recorded, and what "normal" looks like, long before anyone needs to go looking.
-
 ---
 
 ## Lab Topology
