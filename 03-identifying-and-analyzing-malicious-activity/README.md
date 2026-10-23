@@ -58,7 +58,6 @@ In this lab I completed two exercises:
 - Exercise 1 — Analyze Resource Utilization
 - Exercise 2 — Analyze Account & Group Management
 
-Together they cover both halves of identifying malicious activity: watching how a system *behaves* (resource load) and watching what *changes* inside it (privileged group membership), then proving the detection works by generating the activity and finding it.
 
 ### Skills Demonstrated
 
