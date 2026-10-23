@@ -6,7 +6,11 @@
 
 ## Overview
 
-Monitoring who logs into a server is one of the fastest ways to catch unauthorized access. Linux keeps a durable record of every login, logout and reboot, and an analyst can read it in seconds with the `last` command — no extra tooling required. In this exercise I reviewed the login history on a Rocky Linux server, then simulated an SSH brute-force attack from another host and confirmed that both the failed attempts **and** the attacker's eventual successful login were plainly visible in the records.
+This exercise demonstrates the application of Linux authentication monitoring and security log analysis to identify suspicious login activity and potential unauthorized access on a Rocky Linux server within the Polarized Systems SOC environment.
+
+Using Linux utilities such as last, I examined user login history, failed authentication attempts, and system reboot records to identify unusual activity and potential security threats.
+
+The objective is to understand some basics with monitoring logon events on a Linux server. 
 
 ## Devices
 
