@@ -9,7 +9,7 @@
 
 ## Overview
 
-As a **Cybersecurity Analyst**, centralized security monitoring and endpoint visibility are essential for detecting suspicious activity, identifying potential threats, and strengthening security operations across enterprise infrastructure.
+In Security Operations, centralized security monitoring and endpoint visibility are essential for detecting suspicious activity, identifying potential threats, and strengthening security operations across enterprise infrastructure.
 
 In this project, I deployed **Wazuh, an open-source SIEM and XDR platform**, on an Ubuntu Linux server within the Polarized Systems SOC environment. The platform provides centralized security monitoring, event correlation, and alerting across Windows and Linux endpoints.
 
