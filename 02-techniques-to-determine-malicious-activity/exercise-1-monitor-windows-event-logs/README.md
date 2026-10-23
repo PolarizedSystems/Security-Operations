@@ -184,7 +184,6 @@ Running the hunt directly on the Domain Controller works, but in production an a
 > ### 🔎 Why this enables centralized monitoring
 > By default a server's firewall blocks the remote procedure calls that `Get-WinEvent -ComputerName` relies on. Enabling **Remote Event Log Management** on the **Domain** profile permits trusted, domain-joined hosts to read the server's event log across the network, which is the foundation of centralized monitoring — one analyst console, or a SIEM, pulling from many servers at once instead of logging into each. It is scoped to the Domain profile on purpose: the exception applies on the trusted corporate network, not on public or untrusted networks.
 >
-> **Production note:** a full remote pull also depends on the Remote Registry service and appropriate credentials on the target; at enterprise scale this collection is normally handled by **Windows Event Forwarding** or a SIEM agent rather than ad-hoc remote queries. In this lab the detection itself was validated by running the hunt on the Domain Controller (Task 3); this task establishes the firewall foundation that the centralized model is built on.
 
 ---
 
