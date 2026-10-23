@@ -21,8 +21,9 @@ The project focuses on three primary objectives:
 
 - **Exercise 3 – Linux Endpoint Monitoring:** Deployed the Wazuh agent on an Ubuntu Linux endpoint using the Debian package and configured it as a `systemd` service for centralized monitoring.
 
-This project demonstrated practical experience in **SIEM deployment, endpoint security monitoring, agent management, and cross-platform security operations**, establishing a centralized monitoring environment for Windows and Linux infrastructure.
 ---
+
+This project demonstrated practical experience in **SIEM deployment, endpoint security monitoring, agent management, and cross-platform security operations**, establishing a centralized monitoring environment for Windows and Linux infrastructure.
 
 ## Lab Topology
 
