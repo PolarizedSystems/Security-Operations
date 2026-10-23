@@ -23,7 +23,7 @@ The project focuses on three primary objectives:
 
 ---
 
-This project demonstrated practical experience in **SIEM deployment, endpoint security monitoring, agent management, and cross-platform security operations**, establishing a centralized monitoring environment for Windows and Linux infrastructure.
+This project demonstrates practical **SIEM deployment, endpoint security monitoring, agent management, and cross-platform security operations**, while establishing a centralized monitoring environment for Windows and Linux infrastructure.
 
 ## Lab Topology
 
