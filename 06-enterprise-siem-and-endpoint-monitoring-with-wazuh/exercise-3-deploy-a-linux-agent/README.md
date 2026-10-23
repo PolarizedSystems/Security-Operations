@@ -103,7 +103,15 @@ Having successfully enrolled a Windows endpoint, I deployed and configured a **W
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "Our monitoring now spans both Windows and Linux from one console. The same platform that watches our Windows server is now watching our Ubuntu server too, using a package built for each system but reporting into one place. That matters because attackers don't respect platform boundaries, and neither can our visibility. With both endpoints live and healthy, we have a working, cross-platform security-monitoring capability — one dashboard, full coverage — that scales to every machine we choose to onboard next."
+> Successfully expanded **Wazuh security monitoring across Windows and Linux endpoints**, establishing centralized visibility within the Polarized Systems SOC environment.
+>
+> **Key Security Outcomes:**
+>
+> - **Cross-Platform Monitoring:** Integrated Windows Server and Ubuntu Linux endpoints into a single SIEM dashboard.
+> - **Agent Management:** Verified successful connectivity and operational status across both systems.
+> - **Scalability:** Established a repeatable process for onboarding additional enterprise endpoints.
+>
+> **Business Impact:** Improved threat detection capabilities, reduced security blind spots, and strengthened centralized monitoring across multiple operating systems.
 
 ---
 
