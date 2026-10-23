@@ -6,9 +6,9 @@
 
 ## Overview
 
-A real environment is never all one operating system, and neither is its monitoring. Having enrolled a Windows endpoint, I now add a **Linux agent** on `corp-ubuntu-001` so the SIEM has visibility across both platforms. The Linux agent does the same job as its Windows counterpart — collecting security events, watching files for integrity changes, and streaming telemetry to the manager — bringing the Ubuntu server under the same single pane of glass.
+As a cybersecurity analyst, maintaining visibility across different operating systems is essential for effective enterprise security monitoring. Real-world environments rely on both **Windows and Linux infrastructure**, and a centralized SIEM must be capable of monitoring security events, authentication activity, and file integrity changes across both platforms.
 
-> 🔎 **Same model, platform-native package.** Wazuh enrollment is identical in concept across platforms — generate a command carrying the manager IP and a unique agent name, run it on the endpoint — but the package is native to the OS. Windows used an `.msi`; Ubuntu uses a `.deb` installed with `dpkg`. On Linux the agent then runs as a standard `systemd` service, started and enabled with the same `systemctl` tooling as everything else on the box.
+Having successfully enrolled a Windows endpoint, I deployed and configured a **Wazuh Linux agent on `corp-ubuntu-001`** within the Polarized Systems SOC environment. This expanded centralized security visibility across Windows and Linux systems, strengthening **cross-platform threat detection, endpoint monitoring, and security operations**.
 
 ## Devices
 
