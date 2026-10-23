@@ -10,7 +10,7 @@ This exercise demonstrates the application of Linux authentication monitoring an
 
 Using Linux utilities such as last, I examined user login history, failed authentication attempts, and system reboot records to identify unusual activity and potential security threats.
 
-> **The core objective here is to understand some basics with monitoring logon events on a Linux server.**
+> **The core objective here is to understand basic command line utilities that should be used to monitor logon events on a Linux server.**
 
 ## Devices
 
