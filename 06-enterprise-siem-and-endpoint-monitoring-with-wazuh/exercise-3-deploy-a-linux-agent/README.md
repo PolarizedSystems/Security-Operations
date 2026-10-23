@@ -103,7 +103,7 @@ Having successfully enrolled a Windows endpoint, I deployed and configured a **W
 
 > ### 🎤 Stakeholder Takeaway
 >
-> Successfully expanded **Wazuh security monitoring across Windows and Linux endpoints**, establishing centralized visibility within the Polarized Systems SOC environment.
+> We've now successfully expanded **Wazuh security monitoring across Windows and Linux endpoints**, and have centralized visibility within the Polarized Systems SOC environment.
 >
 > **Key Security Outcomes:**
 >
