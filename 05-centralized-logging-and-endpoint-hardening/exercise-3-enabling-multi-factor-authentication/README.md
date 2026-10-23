@@ -17,7 +17,6 @@ The exercise focuses on two primary objectives:
 - **Active Directory User Management:** Created a new user account in Active Directory to establish an identity for authentication configuration.
 - **Multifactor Authentication Configuration:** Enabled multifactor authentication for the Active Directory user to strengthen account protection and access security.
 
-This exercise demonstrated practical experience in **Active Directory administration, identity and access management (IAM), multifactor authentication, and account security**, highlighting the importance of strong authentication controls in enterprise infrastructure.
 
 ## Devices
 
