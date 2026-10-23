@@ -6,9 +6,21 @@
 
 ## Overview
 
-Threat hunting is the proactive search for attackers who have already slipped past preventive controls. Hunters combine **external intelligence** (what attackers are doing in the wild) with **internal telemetry** (what our own logs show) to spot indicators of compromise such as repeated failed logons, privilege escalation and unusual network activity.
+This exercise explores the application of threat hunting and threat intelligence analysis to proactively identify suspicious activity, investigate potential security incidents, and detect indicators of compromise (IOCs) across enterprise infrastructure.
 
-In this exercise, I reviewed three types of intelligence sources, hunted for authentication events in the Windows Security log, mapped activity to MITRE ATT&CK, and enabled firewall logging across the domain.
+Threat hunting involves examining system logs, network activity, authentication records, and security telemetry to identify malicious behavior that may evade traditional security controls. Particular emphasis is placed on detecting advanced persistent threats (APTs), unauthorized access, privilege escalation, and lateral movement within an organization's network.
+
+Common indicators of potentially malicious activity include:
+
+- **Network Anomalies:** Unusual network traffic, suspicious IP addresses, abnormal DNS activity, and potential distributed denial-of-service (DDoS) activity.
+
+- **Authentication & Access Anomalies:** Repeated failed login attempts, off-hours authentication, unexpected privilege escalation, and unusual access to sensitive files or databases.
+
+- **System Integrity Changes:** Unauthorized modifications to system files, Windows Registry settings, and security configurations.
+
+- **Defense Evasion:** Unexpected clearing of security logs or other attempts to conceal suspicious activity.
+
+The objective of this exercise was to examine threat hunting methodologies, indicators of compromise, and security event analysis techniques used to investigate potential threats and strengthen organizational detection capabilities. This exercise demonstrates foundational knowledge of threat detection, incident investigation, security monitoring, and threat intelligence analysis.
 
 ## Devices
 
