@@ -9,12 +9,17 @@
 
 ## Overview
 
-Prevention controls fail eventually, so the difference between a minor incident and a breach is often how quickly an analyst can *see* the attack in the logs. This lab works that detection problem end to end on two platforms: I enabled the right auditing, generated a realistic attack, and then hunted the attacker's footprints in the logs the way a Security Operations analyst would during a live investigation.
+This project demonstrates the application of security auditing, authentication monitoring, and threat detection techniques to identify potentially malicious activity across Windows and Linux enterprise environments.
 
-A core idea runs through both exercises: **you cannot detect what you do not record.** An attack only becomes visible after the audit policy, logging, and collection are configured to capture it — so each exercise pairs a hardening/configuration step with a controlled attack and a detection step that proves the telemetry works.
+Effective threat detection requires properly configured audit policies, centralized visibility, and the ability to analyze security events for indicators of compromise (IOCs). By generating controlled attack scenarios and examining the resulting authentication records, this project evaluates how security telemetry supports incident investigation and the identification of unauthorized access attempts.
 
-- **Exercise 1 — Windows:** Enabled domain-wide logon auditing and an account-lockout threshold with Group Policy, simulated an SMB password-guessing attack from Kali Linux, then built a PowerShell hunting script to surface the resulting failed-logon events (Event ID 4625).
-- **Exercise 2 — Linux:** Reviewed login and reboot history on a Rocky Linux server with the `last` family of commands, then simulated an SSH brute-force attack and confirmed both the failed attempts and the attacker's eventual successful login were visible in the authentication records.
+The project focuses on two primary areas of security investigation:
+
+- **Exercise 1 – Windows Security Auditing & Threat Detection:** Configured domain-wide logon auditing and account lockout policies through Active Directory Group Policy. Simulated SMB password-guessing attempts from Kali Linux and developed a PowerShell script to identify and analyze failed authentication events (Windows Security Event ID 4625).
+
+- **Exercise 2 – Linux Authentication Monitoring & Threat Detection:** Examined login activity and system access history on a Rocky Linux server using Linux auditing utilities. Simulated an SSH brute-force attack from Kali Linux and analyzed authentication records to identify failed login attempts and subsequent successful access.
+
+The objective of this project was to develop practical experience in security event analysis, authentication monitoring, threat detection, and incident investigation across Windows and Linux systems. These exercises demonstrate the importance of audit configuration, log visibility, and investigative techniques used to identify malicious activity within enterprise Security Operations environments.
 
 > 🔎 **Detection begins before the attack, not during it.** Every exercise here deliberately pairs a configuration step with an attack and a detection step, because the telemetry that catches an intruder has to be enabled *in advance*. Logon auditing and an account-lockout threshold are worthless if they're switched on after the brute-force attempt — by then the evidence is already gone. The discipline a SOC analyst builds is to decide what must be recorded, and what "normal" looks like, long before anyone needs to go looking.
 
