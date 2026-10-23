@@ -6,7 +6,7 @@
 
 ## Overview
 
-As a **Cybersecurity Analyst**, implementing **Multifactor Authentication (MFA)** is essential for protecting user accounts, strengthening access controls, and reducing the risk of unauthorized access within enterprise environments.
+**Multifactor Authentication (MFA)** is essential for protecting user accounts, strengthening access controls, and reducing the risk of unauthorized access within enterprise environments.
 
 Multifactor authentication adds an additional layer of security by requiring users to verify their identity through multiple authentication factors. Common authentication methods include **smart cards, authentication applications, and security keys**, which can provide additional protection beyond traditional password-based authentication.
 
