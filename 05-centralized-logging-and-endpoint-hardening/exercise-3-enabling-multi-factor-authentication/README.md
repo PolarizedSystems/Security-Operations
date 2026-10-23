@@ -87,9 +87,22 @@ The exercise focuses on two primary objectives:
 
 ## Stakeholder Takeaway
 
-**What this delivers for the business:** High-value accounts can be hardened so that a stolen or phished password is, by itself, worthless — the attacker still cannot authenticate without the physical factor. Credential theft is the entry point for the overwhelming majority of breaches, and enforced MFA is the single highest-impact control against it. Applying it to privileged and sensitive-role accounts (finance, administrators, domain admins) directly shrinks the organization's most-exploited attack path.
 
-**Production next steps I would recommend:** issue real smart cards or deploy Windows Hello for Business / FIDO2 security keys so enforced accounts have a working second factor to log on with, roll the requirement out to all privileged and high-risk accounts via policy rather than per-user, and — tying back to Exercise 1 — forward the domain controller's security logs to Splunk so that smart-card logon successes, failures and the *"password logon denied"* events are centrally monitored and alertable.
+> ### 🎤 Stakeholder Takeaway
+>
+> This exercise demonstrated how **multifactor authentication (MFA)** strengthens Active Directory security by protecting user accounts against compromised credentials.
+>
+> **Key Findings & Security Outcomes:**
+>
+> - **Account Protection:** Enforced smart-card authentication to prevent password-only access.
+> - **Credential Security:** Reduced exposure to unauthorized access through stolen passwords.
+> - **Privileged Access:** Highlighted the importance of MFA for administrative and high-risk accounts.
+> - **Security Monitoring:** Identified opportunities to monitor authentication events through Splunk.
+>
+> **Recommended Next Steps:** Expand MFA to privileged accounts and integrate authentication logs with Splunk for centralized monitoring.
+>
+> **Business Impact:** Strengthens identity security, reduces credential-based attack risks, and improves enterprise access controls.
+
 
 ---
 
