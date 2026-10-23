@@ -11,15 +11,10 @@
 
 This project demonstrates the application of Open-Source Intelligence (OSINT), threat intelligence analysis, and threat hunting techniques to identify potential security threats, investigate suspicious activity, and strengthen defensive visibility across enterprise infrastructure.
 
- - **Open-Source Intelligence (OSINT): Conducted external reconnaissance and analyzed publicly available information to assess an organization's digital footprint and potential online exposure. Techniques included browser developer tools, web archives, technology profiling, credential leak search engines, WHOIS records, and social media research.
- - **Threat Hunting & Intelligence Analysis: Investigated security events and potential indicators of compromise through Windows Security logs, SIEM platforms, and threat intelligence resources. Activities included analyzing authentication failures, examining attacker behavior through research honeypot telemetry, mapping suspicious activity to the MITRE ATT&CK framework, and enabling Windows Firewall logging through Group Policy.
+ - **Open-Source Intelligence (OSINT):** Conducted external reconnaissance and analyzed publicly available information to assess an organization's digital footprint and potential online exposure. Techniques included browser developer tools, web archives, technology profiling, credential leak search engines, WHOIS records, and social media research.
+ - **Threat Hunting & Intelligence Analysis:** Investigated security events and potential indicators of compromise through Windows Security logs, SIEM platforms, and threat intelligence resources. Activities included analyzing authentication failures, examining attacker behavior through research honeypot telemetry, mapping suspicious activity to the MITRE ATT&CK framework, and enabling Windows Firewall logging through Group Policy.
  
 The objective is to develop practical experience in threat intelligence collection, security event analysis, threat hunting, and adversary behavior identification, while demonstrating techniques used to investigate potential threats and improve security monitoring across enterprise environments.
-
-In this lab, I worked both sides of that problem:
-
-- **Open-source intelligence (OSINT):** I profiled an organization's public footprint the way an adversary would during reconnaissance, using browser developer tools, web archives, technology profilers, leak search engines, WHOIS data and social media search.
-- **Threat hunting and intelligence sources:** I reviewed SIEM and commercial threat-intelligence platforms, observed live attacker behavior on a research honeynet, hunted for logon failures in the Windows Security log, mapped activity to MITRE ATT&CK, and enabled firewall logging across the domain with Group Policy.
 
 ---
 
