@@ -6,9 +6,13 @@
 
 ## Overview
 
-Privilege escalation is one of the most dangerous moves an attacker makes: quietly adding a compromised or newly created account to a powerful group like **Domain Admins** hands them the keys to the entire domain. This exercise makes that attack visible. I enabled Security Group Management auditing with Group Policy, simulated the attack by creating a user and escalating it straight to Domain Admins, and then detected and attributed the change in the Windows Security log.
+As a Cybersecurity Analyst, monitoring user account privileges is essential for identifying unauthorized access, detecting privilege escalation, and protecting critical enterprise infrastructure.
 
-> **The detection chain:** *Audit policy records group changes → the attack adds a user to Domain Admins → Event IDs 4728 and 4737 expose who did it, to whom, and when.*
+Within the Polarized Systems Active Directory environment, I configured security auditing through Group Policy to monitor changes to user accounts and privileged group memberships.
+
+To validate these auditing controls, I simulated unauthorized privilege escalation by adding a test account to the Domain Admins group and examined the resulting security events using Windows Event Viewer.
+
+The objective of this exercise was to develop practical experience in Active Directory security auditing, privileged account monitoring, threat detection, and incident investigation.
 
 ## Devices
 
