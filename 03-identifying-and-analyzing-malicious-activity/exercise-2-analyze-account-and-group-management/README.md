@@ -189,8 +189,6 @@ The objective of this exercise was to develop practical experience in Active Dir
 > | **4728** | A member was added to a security-enabled **global** group | *Who* was added, *which* group, and *who* did it |
 > | **4737** | A security-enabled **global** group was changed | The group's membership was modified (the companion to 4728) |
 >
-> The two fire together on a group-membership change. Correlating them pins down the full story — the member, the group and the actor. In production, adding an account to **Domain Admins** is exactly the kind of event that should trigger a real-time SIEM alert, because a legitimate change to that group is rare and an illegitimate one is catastrophic.
-
 ---
 
 > ### 🎤 Stakeholder Takeaway
