@@ -9,14 +9,19 @@
 
 ## Overview
 
-This lab deploys **Wazuh**, an open-source SIEM and XDR platform, as a second, independent monitoring stack alongside the Splunk logging built in Lab 05 — then brings endpoints under continuous watch with cross-platform agents. Where centralized logging gives a searchable record of events, Wazuh's agents actively monitor each host for file-integrity changes, policy drift, rootkits and suspicious behavior, streaming it all back to one manager for correlation and alerting.
+As a **Cybersecurity Analyst**, centralized security monitoring and endpoint visibility are essential for detecting suspicious activity, identifying potential threats, and strengthening security operations across enterprise infrastructure.
 
-- **Exercise 1 — Deploy the Wazuh Server:** Installed the all-in-one Wazuh stack (indexer + manager + dashboard) on Ubuntu using the vendor installer, hardened the firewall for agent traffic, verified every service, and logged into the dashboard.
-- **Exercise 2 — Deploy a Windows Agent:** Generated a tailored enrollment command from the dashboard and installed the Wazuh agent on a Windows Server endpoint, confirming it active and reporting.
-- **Exercise 3 — Deploy a Linux Agent:** Enrolled an Ubuntu endpoint with the native `.deb` agent as a `systemd` service, bringing both Windows and Linux under a single pane of glass.
+In this project, I deployed **Wazuh, an open-source SIEM and XDR platform**, on an Ubuntu Linux server within the Polarized Systems SOC environment. The platform provides centralized security monitoring, event correlation, and alerting across Windows and Linux endpoints.
 
-> 🔎 **Logging tells you what happened; agent-based monitoring tells you what's changing.** A log search is reactive — it answers questions only after you think to ask them. A Wazuh agent is proactive: it watches each host continuously for file-integrity changes, policy drift, and rootkits, and raises an alert without anyone running a query. Standing Wazuh up alongside the Splunk stack from the previous lab is deliberate — mature security operations rarely rely on a single tool, and fluency across two of the industry's most common platforms is what the job actually looks like.
+The project focuses on three primary objectives:
 
+- **Exercise 1 – Wazuh Server Deployment:** Installed and configured the Wazuh all-in-one platform, including the manager, indexer, and dashboard, on Ubuntu Linux. Configured firewall access, verified service functionality, and accessed the management dashboard.
+
+- **Exercise 2 – Windows Endpoint Monitoring:** Installed and configured the Wazuh agent on a Windows Server endpoint, confirming successful agent enrollment and active communication with the Wazuh manager.
+
+- **Exercise 3 – Linux Endpoint Monitoring:** Deployed the Wazuh agent on an Ubuntu Linux endpoint using the Debian package and configured it as a `systemd` service for centralized monitoring.
+
+This project demonstrated practical experience in **SIEM deployment, endpoint security monitoring, agent management, and cross-platform security operations**, establishing a centralized monitoring environment for Windows and Linux infrastructure.
 ---
 
 ## Lab Topology
