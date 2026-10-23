@@ -2,15 +2,13 @@
 
 ![Polarized Systems — Enterprise Network Architecture](images/enterprise-topology.png)
 
-Security operations is the day-in, day-out work of defense — watching the environment, cutting through the noise, and catching what doesn't belong before it turns into an incident.
+Security Operations focuses on the continuous monitoring, detection, investigation, and response to potential threats across enterprise infrastructure. Effective security operations require centralized visibility, endpoint monitoring, network traffic analysis, and the ability to distinguish legitimate activity from potential security incidents.
 
-The best SOCs don't just wait for alarms to go off; they already know what normal looks like, so anything out of place stands out fast.
+Polarized Systems is a virtualized enterprise security lab designed to demonstrate these capabilities through hands-on engineering, security monitoring, vulnerability assessment, and incident investigation.
 
-Getting there takes real visibility — logs centralized, endpoints monitored, traffic understood — paired with the judgment to tell a true threat from a false alarm.
+The environment operates within a Windows Active Directory domain (`corp.polarizedsystems.com`), featuring segmented server, workstation, and Security Operations networks interconnected through a pfSense firewall.
 
-These projects are me building that visibility and sharpening that judgment, hands-on, across a full enterprise environment.
-
-All work was performed in **Polarized Systems**, my enterprise lab environment: a Windows Active Directory domain (`corp.polarizedsystems.com`) with segmented server, workstation and Security Operations subnets routed through a pfSense firewall.
+The projects below document practical implementations of security technologies, detection and analysis techniques, and system-hardening practices within this simulated enterprise environment.
 
 ---
 
