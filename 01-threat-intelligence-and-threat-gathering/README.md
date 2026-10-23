@@ -13,7 +13,7 @@ This project demonstrates the application of Open-Source Intelligence (OSINT), t
 
  - **Open-Source Intelligence (OSINT): Conducted external reconnaissance and analyzed publicly available information to assess an organization's digital footprint and potential exposure. Techniques included browser developer tools, web archives, technology profiling, credential leak search engines, WHOIS records, and social media research.
  - **Threat Hunting & Intelligence Analysis: Investigated security events and potential indicators of compromise through Windows Security logs, SIEM platforms, and threat intelligence resources. Activities included analyzing authentication failures, examining attacker behavior through research honeypot telemetry, mapping suspicious activity to the MITRE ATT&CK framework, and enabling Windows Firewall logging through Group Policy.
- - 
+ 
 The objective is to develop practical experience in threat intelligence collection, security event analysis, threat hunting, and adversary behavior identification, while demonstrating techniques used to investigate potential threats and improve security monitoring across enterprise environments.
 
 In this lab, I worked both sides of that problem:
