@@ -9,9 +9,6 @@
 
 ## Overview
 
-
-## Overview
-
 This project demonstrates the application of **system resource monitoring, Active Directory security auditing, and privilege escalation detection** to identify abnormal system activity and potentially unauthorized administrative changes within the **Polarized Systems SOC environment**.
 
 Effective security monitoring requires visibility into both system performance and user account activity. Analyzing resource utilization helps identify unusual processes and potential performance anomalies, while auditing Active Directory group membership changes provides critical insight into unauthorized privilege assignments and potential security threats.
