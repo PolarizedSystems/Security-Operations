@@ -6,9 +6,21 @@
 
 ## Overview
 
-Monitoring Windows logs for malicious activity is one of the most common jobs in a Security Operations Center — and one of the most repetitive, which is exactly why it gets scripted. In this exercise I turned on the auditing that records logon attempts, generated a password-guessing attack from an isolated Kali host, and then wrote a PowerShell script to pull the resulting failed-logon events out of the Security log and display them for analysis. Finally, I configured the firewall so the same hunt could be run remotely from an analyst workstation, which is how this is done at scale in production.
+This exercise demonstrates the use of Windows Security auditing, PowerShell scripting, and authentication monitoring to identify suspicious logon activity and detect potential brute-force attacks within an Active Directory environment.
 
-> **The detection chain:** *Audit policy records the events → the attack generates them → the PowerShell script surfaces them.* Remove any link and the attacker is invisible.
+Windows Event Logs provide valuable security telemetry for investigating authentication failures, unauthorized access attempts, and other potentially malicious activities. By configuring audit policies and automating log analysis through PowerShell, security analysts can efficiently identify abnormal authentication patterns and strengthen threat detection capabilities.
+
+The exercise focuses on four primary areas of security monitoring:
+
+- **Security Auditing:** Configure Windows logon auditing policies to capture authentication events and provide visibility into successful and failed logon attempts.
+
+- **Event Generation:** Generate controlled authentication failures to produce security events for investigation and analysis.
+
+- **PowerShell Log Analysis:** Develop a PowerShell script to retrieve and filter Windows Security Event Logs, including failed logon events (Event ID 4625), to identify potential brute-force activity.
+
+- **Brute-Force Mitigation:** Implement account lockout policies to reduce the risk of unauthorized access through repeated password-guessing attempts.
+
+> **The objective of this exercise was to develop practical experience in Windows security auditing, PowerShell automation, authentication monitoring, and brute-force attack detection. These activities demonstrate how automated event log analysis and preventive security controls support effective threat detection and incident investigation within enterprise environments.
 
 ## Devices
 
