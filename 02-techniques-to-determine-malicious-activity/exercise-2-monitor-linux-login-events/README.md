@@ -8,8 +8,6 @@
 
 Monitoring who logs into a server is one of the fastest ways to catch unauthorized access. Linux keeps a durable record of every login, logout and reboot, and an analyst can read it in seconds with the `last` command — no extra tooling required. In this exercise I reviewed the login history on a Rocky Linux server, then simulated an SSH brute-force attack from another host and confirmed that both the failed attempts **and** the attacker's eventual successful login were plainly visible in the records.
 
-> **The question this exercise answers:** *Is anyone logging into this server who shouldn't be — and can I tell where they came from?*
-
 ## Devices
 
 - **corp-rhel-001** – Rocky Linux 10 – login-monitoring target (192.168.20.4)
