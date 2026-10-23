@@ -10,7 +10,7 @@ My objective here is to demostrate the application of security auditing, authent
 
 Effective threat detection requires properly configured audit policies, centralized visibility, and the ability to analyze security events for indicators of compromise (IOCs). By generating controlled attack scenarios and examining the resulting authentication records, this project evaluates how security telemetry supports incident investigation and the identification of unauthorized access attempts.
 
-The project focuses on two primary areas of security investigation:
+These projects focuses on two core areas of security investigation:
 
 - **Exercise 1 – Windows Security Auditing & Threat Detection:** Configured domain-wide logon auditing and account lockout policies through Active Directory Group Policy. Simulated SMB password-guessing attempts from Kali Linux and developed a PowerShell script to identify and analyze failed authentication events (Windows Security Event ID 4625).
 
