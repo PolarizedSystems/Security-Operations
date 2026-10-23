@@ -32,17 +32,25 @@ The objective of this project was to develop practical experience in **system pe
 
 ---
 
-## Learning Outcomes
+## Key Findings & Security Outcomes
 
 By the end of this lab, I was able to:
 
 - Monitor Windows processes and resource utilization with Sysinternals Process Explorer
-- Interpret CPU, memory, I/O and device activity to establish a baseline and spot anomalies
-- Monitor Linux resource utilization with `top` and the interactive `htop`
-- Add a third-party repository (EPEL) to install tooling on an enterprise Linux server
-- Enable Security Group Management auditing across a domain with Group Policy
-- Recognize privilege-escalation activity through Windows Event IDs 4728 and 4737
-- Trace a group change back to the account and source that performed it
+This lab demonstrated the importance of system resource monitoring, user privilege auditing, and unauthorized privilege escalation detection in strengthening security operations across Windows and Linux environments.
+
+Windows Resource Monitoring: Monitored resource utilization on Windows devices to support system oversight and security analysis.
+
+Linux Resource Monitoring: Monitored resource utilization on Linux devices to evaluate system activity.
+
+Privilege Monitoring: Enabled user privilege monitoring to support the identification of unauthorized account permissions.
+
+Security Auditing: Generated auditing logs to provide records for security investigation and analysis.
+
+Privilege Escalation Detection: Examined account privileges to identify potentially unauthorized privilege assignments.
+
+> **Business Impact: Combining resource monitoring with user privilege auditing improves security visibility, strengthens access control oversight, and supports the detection and investigation of unauthorized privilege escalation.
+- Trace a group change back to the account and source that performed it.
 
 ---
 
