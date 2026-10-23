@@ -26,7 +26,7 @@ The exercise focuses on three primary objectives:
 - **Windows Endpoint Integration:** Deployed the Splunk Universal Forwarder to collect and forward Windows event logs.
 - **Centralized Log Collection:** Verified successful log ingestion to support security event analysis and investigation.
 
-This exercise demonstrated practical experience in **SIEM deployment, endpoint integration, centralized log management, and security monitoring** across Windows and Linux infrastructure.
+> **This exercise demonstrated practical experience in **SIEM deployment, endpoint integration, centralized log management, and security monitoring** across Windows and Linux infrastructure.
 
 ## Devices
 
