@@ -6,9 +6,19 @@
 
 ## Overview
 
-The packets crossing a network don't lie. Malware beaconing to a command-and-control server, data being exfiltrated to a strange address, a host scanning its neighbors — it all shows up in the traffic if you're capturing and reading it. This exercise builds that skill on Kali Linux: capturing live traffic with Wireshark, customizing the view so the important fields stand out, filtering down to specific conversations, and then doing the same from the command line with tcpdump.
+As a IT Specialist, monitoring and analyzing network traffic is essential for identifying suspicious activity, detecting potential security threats, and maintaining visibility across enterprise networks.
 
-> **The analyst's three questions for any capture:** *Who is talking to whom? Over what service (port)? And does any of it look wrong?* Everything below is about making those answers jump off the screen.
+This exercise demonstrates the use of Wireshark and tcpdump to capture and examine network traffic, providing practical experience with network monitoring and packet analysis techniques.
+
+The exercise focuses on three primary activities:
+
+Wireshark Configuration: Customize the Wireshark application to support network traffic monitoring and analysis.
+
+Wireshark Packet Capture: Capture network traffic using Wireshark to examine network communications and investigate potentially malicious activity.
+
+tcpdump Packet Capture: Utilize tcpdump to capture network traffic through a command-line interface.
+
+The objective of this exercise was to develop practical experience in network traffic monitoring, packet capture, network analysis, and security investigation, demonstrating how these techniques support threat detection and network security operations.
 
 ## Devices
 
