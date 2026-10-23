@@ -6,19 +6,18 @@
 
 ## Overview
 
-As a Cybersecurity Analyst, implementing Multifactor Authentication (MFA) is essential for protecting user accounts, strengthening access controls, and reducing the risk of unauthorized access within enterprise environments.
+As a **Cybersecurity Analyst**, implementing **Multifactor Authentication (MFA)** is essential for protecting user accounts, strengthening access controls, and reducing the risk of unauthorized access within enterprise environments.
 
-Multifactor authentication adds an additional layer of security by requiring users to verify their identity through multiple authentication factors. Common authentication methods include smart cards, authentication applications, and security keys, which can provide additional protection beyond traditional password-based authentication.
+Multifactor authentication adds an additional layer of security by requiring users to verify their identity through multiple authentication factors. Common authentication methods include **smart cards, authentication applications, and security keys**, which can provide additional protection beyond traditional password-based authentication.
 
-In this exercise, I configured multifactor authentication for a user account in Active Directory within the Polarized Systems environment to strengthen account security and authentication controls.
+In this exercise, I configured **multifactor authentication for a user account in Active Directory** within the Polarized Systems environment to strengthen account security and authentication controls.
 
 The exercise focuses on two primary objectives:
 
-Active Directory User Management: Created a new user account in Active Directory to establish an identity for authentication configuration.
+- **Active Directory User Management:** Created a new user account in Active Directory to establish an identity for authentication configuration.
+- **Multifactor Authentication Configuration:** Enabled multifactor authentication for the Active Directory user to strengthen account protection and access security.
 
-Multifactor Authentication Configuration: Enabled multifactor authentication for the Active Directory user to strengthen account protection and access security.
-
-This exercise demonstrated practical experience in Active Directory administration, identity and access management (IAM), multifactor authentication, and account security, highlighting the importance of strong authentication controls in enterprise infrastructure.
+This exercise demonstrated practical experience in **Active Directory administration, identity and access management (IAM), multifactor authentication, and account security**, highlighting the importance of strong authentication controls in enterprise infrastructure.
 
 ## Devices
 
