@@ -204,7 +204,7 @@ SIEM technology strengthens **enterprise threat visibility, security monitoring,
 > - **Threat Detection:** Enabled capabilities for detecting suspicious activity, file integrity changes, and security policy deviations.
 > - **Cost Efficiency:** Implemented an open-source security monitoring solution without licensing fees.
 >
-> **Business Impact:** Establishes a foundation for continuous endpoint monitoring, centralized threat detection, and improved security visibility across enterprise infrastructure.
+> **Business Impact:** Establishes a foundation for continuous endpoint monitoring, centralized threat detection, and improved security visibility across enterprise infrastructure.**
 
 ---
 
