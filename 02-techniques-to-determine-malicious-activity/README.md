@@ -16,7 +16,7 @@ These projects focuses on two core areas of security investigation:
 
 - **Exercise 2 – Linux Authentication Monitoring & Threat Detection:** Examined login activity and system access history on a Rocky Linux server using Linux auditing utilities. Simulated an SSH brute-force attack from Kali Linux and analyzed authentication records to identify failed login attempts and subsequent successful access.
 
-The objective of this project was to develop practical experience in security event analysis, authentication monitoring, threat detection, and incident investigation across Windows and Linux systems. These exercises demonstrate the importance of audit configuration, log visibility, and investigative techniques used to identify malicious activity within enterprise Security Operations environments.
+> **The objective of this project was to develop practical experience in security event analysis, authentication monitoring, threat detection, and incident investigation across Windows and Linux systems. These exercises demonstrate the importance of audit configuration, log visibility, and investigative techniques used to identify malicious activity within enterprise Security Operations environments.**
 
 ---
 
