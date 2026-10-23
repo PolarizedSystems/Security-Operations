@@ -115,7 +115,9 @@ With a baseline of normal activity established, I generated an attack from **cor
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "On the Linux side we showed that the server already keeps a complete record of everyone who logs in and where they came from — no extra software needed. We simulated an attacker guessing passwords over SSH, and the server captured all of it: three failed attempts, then a successful break-in from the same address, with the system even announcing the failed attempts at login. The lesson for the business is that this evidence is already being collected on every Linux server we run; the value is in reviewing it. A single command tells us whether anyone is on a server who shouldn't be, and from where — which is the first question we ask in any investigation."
+> "This exercise demonstrated how native Linux authentication logs provide valuable visibility into user access, failed login attempts, and potential security threats without requiring additional monitoring software. By analyzing SSH authentication activity, I identified multiple failed login attempts followed by successful access from the same source address.
+
+The key business takeaway is that effective security monitoring begins with visibility into existing system logs. Regular authentication log analysis enables security teams to identify suspicious access patterns, investigate potential unauthorized activity, and strengthen incident detection capabilities across enterprise Linux infrastructure."
 
 ---
 
