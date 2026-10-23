@@ -6,11 +6,23 @@
 
 ## Overview
 
-A SIEM is only as good as its collector. In the previous lab I built centralized logging with Splunk; here I deploy **Wazuh** — an open-source SIEM and XDR platform — as a second, independent monitoring stack. Wazuh goes a step beyond log collection: its agents actively watch each endpoint for file-integrity changes, policy violations, rootkits and suspicious behavior, and stream that telemetry back to a central manager for correlation, alerting and compliance reporting.
 
-In this exercise I stood up the **all-in-one Wazuh server** — indexer, manager and dashboard on a single Ubuntu host (`soc-wazuh-002`) — hardened the firewall for agent traffic, and logged into the dashboard ready to enroll endpoints.
+## Section 1 – What Is a SIEM?
 
-> 🔎 **The three components of a Wazuh server.** The **indexer** stores and indexes the events (it's an OpenSearch engine). The **manager** receives data from agents, analyzes it against rules, and raises alerts. The **dashboard** is the web UI for searching and visualizing it all. The "all-in-one" deployment puts all three on one host — perfect for a lab or a small environment; at enterprise scale they're split across dedicated nodes.
+### Introduction
+
+A **Security Information and Event Management (SIEM)** system is a centralized security platform that enables organizations to collect, analyze, and monitor security events across enterprise infrastructure. By aggregating logs from servers, firewalls, applications, intrusion detection systems, and endpoints, SIEM solutions provide greater visibility into potential threats and suspicious activity.
+
+A core capability of SIEM technology is **event correlation**, which identifies patterns across multiple systems that may indicate malicious activity. SIEM platforms can also integrate threat intelligence, generate automated alerts, and support security investigations and incident response.
+
+SIEM solutions play a critical role in modern **Security Operations Centers (SOCs)** by providing three essential capabilities:
+
+- **Centralized Log Management:** Collect and organize security events from multiple systems for monitoring and analysis.
+- **Threat Detection & Incident Response:** Correlate events, identify suspicious behavior, and support timely investigation of potential security incidents.
+- **Security Compliance & Reporting:** Maintain audit trails and generate reports that support regulatory requirements, including HIPAA, PCI DSS, and GDPR.
+
+Ultimately, SIEM technology strengthens **enterprise threat visibility, security monitoring, and incident response capabilities**, providing a foundation for effective security operations across on-premises and cloud environments.
+
 
 ## Device
 
