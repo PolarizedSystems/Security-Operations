@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project demonstrates the application of security auditing, authentication monitoring, and threat detection techniques to identify potentially malicious activity across Windows and Linux enterprise environments.
+My objective here is to demostrate the application of security auditing, authentication monitoring, and threat detection techniques to identify potentially malicious activity across Windows and Linux enterprise environments.
 
 Effective threat detection requires properly configured audit policies, centralized visibility, and the ability to analyze security events for indicators of compromise (IOCs). By generating controlled attack scenarios and examining the resulting authentication records, this project evaluates how security telemetry supports incident investigation and the identification of unauthorized access attempts.
 
