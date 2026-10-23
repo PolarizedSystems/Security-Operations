@@ -6,9 +6,17 @@
 
 ## Overview
 
-When an alert fires on a strange domain or IP address, the first question is always *is this actually dangerous?* Answering it quickly, without touching the suspicious host, is a core analyst skill. This exercise uses three free, authoritative services to do exactly that: **WHOIS** for ownership and registration, **AbuseIPDB** for an IP's history of reported abuse, and **VirusTotal** for the reputation of a URL or address across dozens of security vendors.
+As a **IT Specialist**, validating domain names and IP addresses is essential for investigating suspicious network activity, identifying potentially malicious resources, and assessing security risks.
 
-> **Why validate before you act:** blocking a legitimate business partner's IP is as disruptive as missing a real attacker. These tools let an analyst make a confident, evidence-based call in seconds.
+This exercise demonstrates the use of **WHOIS, AbuseIPDB, and VirusTotal** to investigate domain information, evaluate IP address reputations, and assess the safety of web links.
+
+The exercise focuses on three primary areas of security investigation:
+
+- **WHOIS Analysis:** Examine domain registration information and associated IP address details to support domain validation.
+- **AbuseIPDB Reputation Checks:** Investigate reported malicious activity associated with IP addresses to support security assessments.
+- **VirusTotal URL Analysis:** Evaluate web links for potential security threats using VirusTotal.
+
+The objective of this exercise was to develop practical experience in **domain validation, IP reputation analysis, threat intelligence gathering, and security investigation**, demonstrating how publicly available intelligence resources support cybersecurity operations.
 
 ## Devices
 
