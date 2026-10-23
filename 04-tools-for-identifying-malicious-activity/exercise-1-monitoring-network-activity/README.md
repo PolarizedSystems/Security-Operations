@@ -10,7 +10,7 @@ As a IT Specialist, monitoring and analyzing network traffic is essential for id
 
 This exercise demonstrates the use of Wireshark and tcpdump to capture and examine network traffic, providing practical experience with network monitoring and packet analysis techniques.
 
-The exercise focuses on three primary activities:
+This exercise focuses on three primary activities:
 
 - **Wireshark Configuration:** Customize the Wireshark application to support network traffic monitoring and analysis.
 
