@@ -61,17 +61,15 @@ In this lab I completed two exercises:
 
 ### Skills Demonstrated
 
-- Monitor Windows processes and resource utilization with Sysinternals Process Explorer
-
 - **Windows Resource Monitoring:** Monitored resource utilization on Windows devices to support system oversight and security analysis.
 
 - **Linux Resource Monitoring:** Monitored resource utilization on Linux devices to evaluate system activity.
 
 - **Privilege Monitoring:** Enabled user privilege monitoring to support the identification of unauthorized account permissions.
 
-- **Security Auditing:** Generated auditing logs to provide records for security investigation and analysis.
+- **Security Auditing:** Domain-wide audit configuration with Group Policy (Advanced Audit Policy).
 
-- **Privilege Escalation Detection:** Examined account privileges to identify potentially unauthorized privilege assignments.
+- **Privilege Escalation Detection:** Examined account privileges to identify potentially unauthorized privilege assignments using event IDs 4728 and 4737.
 
 > **Business Impact: Combining resource monitoring with user privilege auditing improves security visibility, strengthens access control oversight, and supports the detection and investigation of unauthorized privilege escalation.**
 
