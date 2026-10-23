@@ -9,12 +9,21 @@
 
 ## Overview
 
-Attackers don't always break down the door — often they blend in, consuming resources or quietly escalating privileges with legitimate-looking accounts. This lab builds the analyst skills to catch both: reading a system's resource utilization to spot abnormal load, and auditing Active Directory so that privilege escalation leaves a trail.
 
-Across two exercises I monitored live resource usage on Windows and Linux, then configured auditing on the Domain Controller and proved it by simulating a classic attack — adding a newly created user straight into **Domain Admins** — and detecting it in the event log.
+## Overview
 
-- **Exercise 1 — Analyze Resource Utilization:** Inspected processes, CPU, memory, I/O and devices on a Windows member server with Sysinternals Process Explorer, then monitored a Linux server with `top` and `htop`.
-- **Exercise 2 — Analyze Account & Group Management:** Enabled Security Group Management auditing with Group Policy, created a test user and escalated it to Domain Admins, then detected the change through Event IDs **4728** and **4737**.
+This project demonstrates the application of **system resource monitoring, Active Directory security auditing, and privilege escalation detection** to identify abnormal system activity and potentially unauthorized administrative changes within the **Polarized Systems SOC environment**.
+
+Effective security monitoring requires visibility into both system performance and user account activity. Analyzing resource utilization helps identify unusual processes and potential performance anomalies, while auditing Active Directory group membership changes provides critical insight into unauthorized privilege assignments and potential security threats.
+
+The project focuses on two primary areas of security investigation:
+
+- **Exercise 1 – System Resource Utilization Analysis:** Monitored CPU, memory, disk I/O, and running processes on Windows and Linux servers using **Microsoft Sysinternals Process Explorer**, `top`, and `htop` to evaluate system performance and identify potentially abnormal resource consumption.
+
+- **Exercise 2 – Active Directory Account & Group Auditing:** Configured Security Group Management auditing through Group Policy and simulated privilege escalation by adding a test account to the Domain Admins group. Analyzed Windows Security Event Logs, including Event IDs `4728` and `4737`, to investigate group membership and security configuration changes.
+
+The objective of this project was to develop practical experience in **system performance analysis, security auditing, privileged account monitoring, and threat detection**. These exercises demonstrate how resource monitoring and Active Directory event analysis improve visibility into suspicious activity and support effective security investigations across enterprise infrastructure.
+.
 
 > 🔎 **The quietest attacks look exactly like normal administration.** Adding a user to Domain Admins isn't an exploit — it's a routine action Active Directory performs legitimately all the time. What makes it *detectable* is not the action but the context: who did it, from where, and whether it was expected. The same holds for resource load, where a malicious process hides inside ordinary CPU and memory usage. Analysis is the skill of separating the one abnormal event from the sea of normal ones it's hiding in.
 
