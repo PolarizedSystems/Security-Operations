@@ -2,9 +2,6 @@
 
 [← Back to Security Operations](../README.md)
 
-**Domain:** Security Operations
-**Environment:** Polarized Systems lab — Windows Active Directory domain (`corp.polarizedsystems.com`) with a segmented server subnet, a Rocky Linux server, and an isolated Security Operations subnet for attack simulation
-
 ---
 
 ## Overview
