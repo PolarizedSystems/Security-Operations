@@ -6,11 +6,19 @@
 
 ## Overview
 
-A password is a single secret, and single secrets get phished, guessed, reused and leaked. **Multi-factor authentication (MFA)** breaks that single point of failure by requiring a second, independent factor — something the user *has* (a smart card, a token) in addition to something they *know* (a PIN). Even a fully compromised password buys an attacker nothing if they can't also present the physical factor.
+As a Cybersecurity Analyst, implementing Multifactor Authentication (MFA) is essential for protecting user accounts, strengthening access controls, and reducing the risk of unauthorized access within enterprise environments.
 
-In this exercise I created an Active Directory user in the **Polarized Systems** domain and enforced **smart-card-required (certificate-based) multi-factor authentication** on the account, then demonstrated the control holding at the logon screen — password-only interactive logon is refused.
+Multifactor authentication adds an additional layer of security by requiring users to verify their identity through multiple authentication factors. Common authentication methods include smart cards, authentication applications, and security keys, which can provide additional protection beyond traditional password-based authentication.
 
-> 🔎 **"Smart card required" = certificate-based MFA.** Ticking *Smart card is required for interactive logon* tells the domain controller to reject username-and-password logon for that account entirely. The user must instead present a smart card carrying a logon certificate and enter its PIN. That combination — the physical card (*have*) plus the PIN (*know*) — is true two-factor authentication, enforced by Active Directory itself with no third-party software. Setting and demonstrating the control does not require owning a physical card: the enforcement is visible the moment password logon is attempted and refused.
+In this exercise, I configured multifactor authentication for a user account in Active Directory within the Polarized Systems environment to strengthen account security and authentication controls.
+
+The exercise focuses on two primary objectives:
+
+Active Directory User Management: Created a new user account in Active Directory to establish an identity for authentication configuration.
+
+Multifactor Authentication Configuration: Enabled multifactor authentication for the Active Directory user to strengthen account protection and access security.
+
+This exercise demonstrated practical experience in Active Directory administration, identity and access management (IAM), multifactor authentication, and account security, highlighting the importance of strong authentication controls in enterprise infrastructure.
 
 ## Devices
 
