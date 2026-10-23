@@ -20,7 +20,7 @@ The exercise focuses on four primary areas of security monitoring:
 
 - **Brute-Force Mitigation:** Implement account lockout policies to reduce the risk of unauthorized access through repeated password-guessing attempts.
 
-> **The objective of this exercise was to develop practical experience in Windows security auditing, PowerShell automation, authentication monitoring, and brute-force attack detection. These activities demonstrate how automated event log analysis and preventive security controls support effective threat detection and incident investigation within enterprise environments.
+> **The objective of this exercise was to develop practical experience in Windows security auditing, PowerShell automation, authentication monitoring, and brute-force attack detection. These activities demonstrate how automated event log analysis and preventive security controls support effective threat detection and incident investigation within enterprise environments.**
 
 ## Devices
 
