@@ -23,8 +23,6 @@ The project focuses on three primary areas of security engineering:
 
 The objective of this project was to develop practical experience in **SIEM deployment, centralized log management, endpoint security, data encryption, and identity and access management (IAM)**. These exercises demonstrate how layered security controls strengthen enterprise monitoring, protect sensitive resources, and reduce exposure to unauthorized access.
 
-> 🔎 **A SIEM is only as trustworthy as the endpoints feeding it.** Centralizing logs answers "what happened across everything at once" — but it also concentrates risk: if an endpoint's data isn't protected and its accounts aren't hardened, the SIEM faithfully records a breach it did nothing to prevent. That's why collection, encryption at rest, and enforced MFA belong in the same lab — detection tells you an attacker got in, while hardening limits how far they get. In production, the hardening events themselves become telemetry, feeding straight back into the SIEM.
-
 ---
 
 ## Lab Topology
