@@ -115,7 +115,7 @@ With a baseline of normal activity established, I generated an attack from **cor
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "This exercise demonstrated how native Linux authentication logs provide valuable visibility into user access, failed login attempts, and potential security threats without requiring additional monitoring software. By analyzing SSH authentication activity, I identified multiple failed login attempts followed by successful access from the same source address.
+> "This exercise demonstrated how native Linux authentication logs provide valuable visibility into user access, failed login attempts, and potential security threats without requiring additional monitoring software. By analyzing SSH authentication activity, I identified multiple failed login attempts followed by successful access from the same source address
 
 The key business takeaway is that effective security monitoring begins with visibility into existing system logs. Regular authentication log analysis enables security teams to identify suspicious access patterns, investigate potential unauthorized activity, and strengthen incident detection capabilities across enterprise Linux infrastructure."
 
