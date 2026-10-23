@@ -6,11 +6,16 @@
 
 ## Overview
 
-Centralized logging protects the *record* of what happened. Encryption protects the *data itself*. A server holding personally identifiable information (PII) or cardholder data is only as secure as the disk it sits on — and a disk, unlike a running operating system, has no login prompt. Pull the drive, mount it on another machine, and every file is readable in plain text. **Encryption at rest** closes that gap: without the key, the volume is unreadable no matter who holds the hardware.
+As a **Cybersecurity Analyst**, protecting sensitive information is essential for maintaining data confidentiality, preventing unauthorized access, and strengthening enterprise security. Sensitive information, including **Personally Identifiable Information (PII)** and **Cardholder Data (CHD)**, requires appropriate security controls to protect it from potential exposure.
 
-In this exercise I installed the **BitLocker Drive Encryption** feature on a Windows member server (`corp-win-svr-001`) and encrypted a dedicated data volume (**E:**) representing sensitive data, protecting it with a password unlock and an escrowed recovery key.
+In this exercise, I implemented **Microsoft BitLocker Drive Encryption** on a Windows server within the Polarized Systems environment to protect locally stored data through drive-level encryption.
 
-> 🔎 **Why a dedicated data volume?** Rather than encrypting the operating-system drive, this demonstrates the most common real-world pattern: a separate volume that holds the sensitive data (a database, a file share, an export of cardholder records) is encrypted on its own. It can be unlocked with a password at mount time with no dependency on a TPM, and the sensitive data is protected the moment the volume is at rest — exactly how you would protect a data drive on a file server or database host.
+The exercise focuses on two primary objectives:
+
+- **BitLocker Deployment:** Installed the BitLocker Drive Encryption feature on a Windows server to enable data protection capabilities.
+- **Drive Encryption:** Configured BitLocker to encrypt a local server drive, protecting sensitive information stored on the volume.
+
+This exercise demonstrated practical experience in **data encryption, Windows Server security, and data protection**, highlighting the importance of securing sensitive information at rest within enterprise infrastructure.
 
 ## Device
 
