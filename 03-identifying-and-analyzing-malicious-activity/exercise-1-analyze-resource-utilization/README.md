@@ -6,9 +6,13 @@
 
 ## Overview
 
-Resource utilization is one of the first places malicious activity shows up. A crypto-miner pins the CPU, a memory leak or data-staging process balloons RAM, and a denial-of-service flood saturates the network card. Before you can spot "abnormal," you need to know what normal looks like — so this exercise builds that baseline on both platforms, using Sysinternals Process Explorer on Windows and `top`/`htop` on Linux.
+This exercise demonstrates the use of system resource monitoring and performance analysis to identify abnormal activity and potential security threats across Windows and Linux environments.
 
-> **Why baselines matter:** an alert that says "CPU is at 90%" is only useful if you know the server normally runs at 10%. Resource monitoring turns raw numbers into the context an analyst needs to tell a busy server from a compromised one.
+Using Microsoft Sysinternals Process Explorer and Linux utilities such as top and htop, I examined running processes, CPU utilization, memory consumption, and overall system performance.
+
+Monitoring these resources provides valuable insight into performance anomalies, unauthorized processes, and suspicious system behavior.
+
+The objective was to develop practical experience in system administration, resource monitoring, performance troubleshooting, and security analysis within the Polarized Systems SOC environment.
 
 ## Devices
 
