@@ -92,9 +92,6 @@ In this exercise, I deployed and configured a Wazuh agent on a Windows endpoint 
 
 > ### 🎤 Stakeholder Takeaway
 >
-
-> ### 🎤 Stakeholder Takeaway
->
 > Successfully deployed and registered a **Wazuh agent on a Windows Server**, establishing continuous endpoint monitoring within the Polarized Systems SOC environment.
 >
 > **Key Security Outcomes:**
