@@ -172,9 +172,6 @@ I monitored the Linux server over SSH, the way an analyst reaches a headless ser
 
     ![Exit SSH](screenshots/exercise-1/e1-27-exit-ssh.png)
 
-> ### 🔎 top vs. htop
-> `top` is everywhere by default, so it's the reliable first look on any Linux host. `htop` is friendlier for investigation — color per-core meters, mouse support, and one-key sorting/filtering/killing — but it usually has to be installed. An analyst reaches for `top` to triage fast and `htop` when digging into a busy or suspicious box.
-
 ---
 
 > ### 🎤 Stakeholder Takeaway
