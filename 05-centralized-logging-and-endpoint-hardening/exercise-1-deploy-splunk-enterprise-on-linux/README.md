@@ -11,20 +11,22 @@
 
 ### Overview
 
-As a **Cybersecurity Analyst**, centralized log collection is essential for monitoring network activity, identifying suspicious events, and supporting security investigations across enterprise infrastructure.
 
-In this exercise, I installed and configured **Splunk Enterprise on a Rocky Linux server** within the Polarized Systems SOC environment to establish a centralized platform for collecting and monitoring logs from network-connected devices.
+## Exercise 1 – Log Collection with Splunk
 
-I also installed and configured the **Splunk Universal Forwarder on a Windows endpoint (`corp-wks-001`)** to collect and forward Windows event logs to the centralized Splunk Enterprise server for security monitoring and analysis.
+### Overview
+
+As a **Cybersecurity Analyst**, centralized log collection is essential for identifying suspicious activity, monitoring security events, and supporting investigations across enterprise infrastructure.
+
+In this exercise, I deployed **Splunk Enterprise on a Rocky Linux server** within the Polarized Systems SOC environment to establish a centralized logging platform. I also installed and configured the **Splunk Universal Forwarder on a Windows endpoint (`corp-wks-001`)** to collect and transmit Windows event logs to the Splunk Enterprise server.
 
 The exercise focuses on three primary objectives:
 
-- **Splunk Enterprise Deployment:** Installed and configured Splunk Enterprise on Rocky Linux to provide centralized log management and monitoring capabilities.
-- **Windows Endpoint Integration:** Deployed the Splunk Universal Forwarder on a Windows workstation to collect and transmit event logs to the Splunk Enterprise server.
-- **Centralized Log Collection:** Collected logs from the Windows endpoint to improve visibility into system activity and support security event analysis.
+- **Splunk Enterprise Deployment:** Installed and configured Splunk Enterprise on Rocky Linux for centralized security monitoring.
+- **Windows Endpoint Integration:** Deployed the Splunk Universal Forwarder to collect and forward Windows event logs.
+- **Centralized Log Collection:** Verified successful log ingestion to support security event analysis and investigation.
 
-The objective of this exercise was to develop practical experience in **SIEM deployment, centralized log collection, endpoint integration, and security monitoring**, demonstrating how Splunk Enterprise and the Universal Forwarder work together to support enterprise security operations.
-
+This exercise demonstrated practical experience in **SIEM deployment, endpoint integration, centralized log management, and security monitoring** across Windows and Linux infrastructure.
 
 ## Devices
 
