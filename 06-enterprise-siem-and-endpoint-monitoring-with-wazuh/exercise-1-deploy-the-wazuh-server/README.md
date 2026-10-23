@@ -194,7 +194,19 @@ SIEM technology strengthens **enterprise threat visibility, security monitoring,
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "We now run a second, independent security-monitoring platform alongside our Splunk logging. Where Splunk gives us a searchable record of what happened, Wazuh actively watches each machine — flagging file changes, policy drift, and suspicious behavior — and raises alerts in real time. We stood the whole stack up on a single hardened Linux server using the vendor's own installer, which provisions its services under locked-down accounts automatically. It cost nothing in licensing, and it's ready to bring our endpoints under continuous watch."
+
+> ### 🎤 Stakeholder Takeaway
+>
+> This exercise demonstrated the successful deployment of **Wazuh**, an open-source SIEM and XDR platform, to strengthen security monitoring alongside Splunk within the Polarized Systems SOC environment.
+>
+> **Key Findings & Security Outcomes:**
+>
+> - **SIEM Deployment:** Installed the Wazuh platform on a Linux server using the official installation utility.
+> - **Centralized Monitoring:** Established a platform for collecting, analyzing, and monitoring endpoint security events.
+> - **Threat Detection:** Enabled capabilities for detecting suspicious activity, file integrity changes, and security policy deviations.
+> - **Cost Efficiency:** Implemented an open-source security monitoring solution without licensing fees.
+>
+> **Business Impact:** Establishes a foundation for continuous endpoint monitoring, centralized threat detection, and improved security visibility across enterprise infrastructure.
 
 ---
 
