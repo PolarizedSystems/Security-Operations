@@ -9,11 +9,19 @@
 
 ## Overview
 
-Detection is only as good as the data behind it — and the data is only useful if it is *collected centrally*, *trustworthy*, and *protected*. This lab builds all three. I stood up a **Splunk Enterprise SIEM on enterprise Linux** for centralized log collection, then layered on two core endpoint-hardening controls: **BitLocker drive encryption** to protect sensitive data at rest, and **smart-card-required multi-factor authentication** to protect the accounts that access it.
+This project demonstrates the implementation of **centralized security logging, data encryption, and multi-factor authentication (MFA)** to strengthen threat visibility, protect sensitive information, and improve access security within the **Polarized Systems SOC environment**.
 
-- **Exercise 1 — Deploy Splunk Enterprise on Linux:** Installed Splunk Enterprise on Rocky Linux as a `systemd`-managed service, enabled receiving on TCP 9997, deployed a Universal Forwarder on a Windows endpoint, and confirmed Windows Security, System and Application logs flowing into Splunk and searchable in real time.
-- **Exercise 2 — Encrypting Sensitive Data:** Installed the BitLocker Drive Encryption feature on a Windows member server and encrypted a dedicated data volume with password unlock and an escrowed recovery key.
-- **Exercise 3 — Enabling Multi-Factor Authentication:** Created an Active Directory user and enforced smart-card (certificate-based) MFA, then demonstrated the control refusing single-factor password logon at the workstation.
+Effective enterprise security requires centralized collection of system events, protection of sensitive data at rest, and strong authentication controls to reduce the risk of unauthorized access. This project combines **Splunk Enterprise SIEM, Microsoft BitLocker Drive Encryption, and Active Directory smart-card authentication** to demonstrate these security capabilities across Windows and Linux infrastructure.
+
+The project focuses on three primary areas of security engineering:
+
+- **Exercise 1 – Centralized Logging with Splunk Enterprise:** Deployed Splunk Enterprise on Rocky Linux as a `systemd`-managed service, configured TCP port `9997` for log ingestion, and installed a Splunk Universal Forwarder on a Windows endpoint. Verified centralized collection and real-time searchability of Windows Security, System, and Application event logs.
+
+- **Exercise 2 – Data Protection with BitLocker:** Installed and configured Microsoft BitLocker Drive Encryption on a Windows member server to encrypt a dedicated data volume, implementing password-based unlocking and recovery key escrow to protect sensitive information at rest.
+
+- **Exercise 3 – Multi-Factor Authentication:** Configured an Active Directory user account to require smart-card authentication and validated the enforcement of certificate-based MFA by demonstrating that password-only authentication was rejected at the workstation.
+
+The objective of this project was to develop practical experience in **SIEM deployment, centralized log management, endpoint security, data encryption, and identity and access management (IAM)**. These exercises demonstrate how layered security controls strengthen enterprise monitoring, protect sensitive resources, and reduce exposure to unauthorized access.
 
 > 🔎 **A SIEM is only as trustworthy as the endpoints feeding it.** Centralizing logs answers "what happened across everything at once" — but it also concentrates risk: if an endpoint's data isn't protected and its accounts aren't hardened, the SIEM faithfully records a breach it did nothing to prevent. That's why collection, encryption at rest, and enforced MFA belong in the same lab — detection tells you an attacker got in, while hardening limits how far they get. In production, the hardening events themselves become telemetry, feeding straight back into the SIEM.
 
