@@ -103,8 +103,6 @@ This exercise demonstrated practical experience in **data encryption, Windows Se
 
 **What this delivers for the business:** The sensitive-data volume on this server is now encrypted at rest. If the physical disk — or, in a virtual environment, the underlying VMDK — is stolen, copied, or improperly decommissioned, the data on it is cryptographically useless to whoever holds it. For any organization handling PII, cardholder data (PCI DSS), or health records (HIPAA), encryption at rest is not optional; it is a baseline control that directly reduces breach-notification exposure, because data that was encrypted when lost is generally not treated as a reportable breach.
 
-**Production next steps I would recommend:** escrow BitLocker recovery keys into **Active Directory** via Group Policy (so keys are centrally managed and never stored on loose files), enforce BitLocker across all data-bearing servers and workstations through policy rather than per-host, and pair it with the centralized logging from Exercise 1 so that BitLocker events (unlocks, recovery-key usage, tamper events) are themselves collected and monitored.
-
 ---
 
 [← Previous: Exercise 1 – Deploy Splunk Enterprise on Linux](../exercise-1-deploy-splunk-enterprise-on-linux/README.md) | [Back to Lab Overview](../README.md) | [Next: Exercise 3 – Enabling Multi-Factor Authentication →](../exercise-3-enabling-multi-factor-authentication/README.md)
