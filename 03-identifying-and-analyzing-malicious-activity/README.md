@@ -73,5 +73,5 @@ In this lab I completed two exercises:
 
 - **Privilege Escalation Detection:** Examined account privileges to identify potentially unauthorized privilege assignments.
 
-> **Business Impact: Combining resource monitoring with user privilege auditing improves security visibility, strengthens access control oversight, and supports the detection and investigation of unauthorized privilege escalation.
+> **Business Impact: Combining resource monitoring with user privilege auditing improves security visibility, strengthens access control oversight, and supports the detection and investigation of unauthorized privilege escalation.**
 
