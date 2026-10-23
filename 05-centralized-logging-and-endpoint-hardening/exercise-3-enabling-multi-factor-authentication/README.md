@@ -99,7 +99,6 @@ The exercise focuses on two primary objectives:
 > - **Privileged Access:** Highlighted the importance of MFA for administrative and high-risk accounts.
 > - **Security Monitoring:** Identified opportunities to monitor authentication events through Splunk.
 >
-> **Recommended Next Steps:** Expand MFA to privileged accounts and integrate authentication logs with Splunk for centralized monitoring.
 >
 > **Business Impact:** Strengthens identity security, reduces credential-based attack risks, and improves enterprise access controls.
 
