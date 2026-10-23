@@ -29,28 +29,6 @@ The objective of this project was to develop practical experience in **system pe
 
 ---
 
-## Key Findings & Security Outcomes
-
-By the end of this lab, I was able to:
-
-- Monitor Windows processes and resource utilization with Sysinternals Process Explorer
-This lab demonstrated the importance of system resource monitoring, user privilege auditing, and unauthorized privilege escalation detection in strengthening security operations across Windows and Linux environments.
-
-- **Windows Resource Monitoring:** Monitored resource utilization on Windows devices to support system oversight and security analysis.
-
-- **Linux Resource Monitoring:** Monitored resource utilization on Linux devices to evaluate system activity.
-
-- **Privilege Monitoring:** Enabled user privilege monitoring to support the identification of unauthorized account permissions.
-
-- **Security Auditing:** Generated auditing logs to provide records for security investigation and analysis.
-
-- **Privilege Escalation Detection:** Examined account privileges to identify potentially unauthorized privilege assignments.
-
-> **Business Impact: Combining resource monitoring with user privilege auditing improves security visibility, strengthens access control oversight, and supports the detection and investigation of unauthorized privilege escalation.
-- Trace a group change back to the account and source that performed it.
-
----
-
 ## Lab Environment
 
 | Hostname | IP Address | Operating System | Role in this lab |
@@ -84,8 +62,17 @@ Together they cover both halves of identifying malicious activity: watching how 
 
 ### Skills Demonstrated
 
-- Windows process and resource analysis with Sysinternals Process Explorer
-- Cross-platform resource monitoring with `top` and `htop`
-- Enterprise Linux package management, including enabling the EPEL repository
-- Domain-wide audit configuration with Group Policy (Advanced Audit Policy)
-- Detecting and attributing privilege escalation through Event IDs 4728 and 4737
+- Monitor Windows processes and resource utilization with Sysinternals Process Explorer
+
+- **Windows Resource Monitoring:** Monitored resource utilization on Windows devices to support system oversight and security analysis.
+
+- **Linux Resource Monitoring:** Monitored resource utilization on Linux devices to evaluate system activity.
+
+- **Privilege Monitoring:** Enabled user privilege monitoring to support the identification of unauthorized account permissions.
+
+- **Security Auditing:** Generated auditing logs to provide records for security investigation and analysis.
+
+- **Privilege Escalation Detection:** Examined account privileges to identify potentially unauthorized privilege assignments.
+
+> **Business Impact: Combining resource monitoring with user privilege auditing improves security visibility, strengthens access control oversight, and supports the detection and investigation of unauthorized privilege escalation.
+
