@@ -12,11 +12,11 @@ This exercise demonstrates the use of Wireshark and tcpdump to capture and exami
 
 The exercise focuses on three primary activities:
 
-Wireshark Configuration: Customize the Wireshark application to support network traffic monitoring and analysis.
+- **Wireshark Configuration:** Customize the Wireshark application to support network traffic monitoring and analysis.
 
-Wireshark Packet Capture: Capture network traffic using Wireshark to examine network communications and investigate potentially malicious activity.
+- **Wireshark Packet Capture:** Capture network traffic using Wireshark to examine network communications and investigate potentially malicious activity.
 
-tcpdump Packet Capture: Utilize tcpdump to capture network traffic through a command-line interface.
+- **tcpdump Packet Capture:** Utilize tcpdump to capture network traffic through a command-line interface.
 
 The objective of this exercise was to develop practical experience in network traffic monitoring, packet capture, network analysis, and security investigation, demonstrating how these techniques support threat detection and network security operations.
 
