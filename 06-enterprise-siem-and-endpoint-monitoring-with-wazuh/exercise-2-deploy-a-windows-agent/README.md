@@ -6,9 +6,10 @@
 
 ## Overview
 
-A SIEM server with no agents is a security camera pointed at a wall. The value comes from the **agents** — lightweight programs installed on each endpoint that collect security events, log data and system telemetry and stream it securely back to the manager for analysis. In this exercise I enrolled the first endpoint: a **Windows agent** on `corp-win-svr-001`, registered to the Wazuh manager and confirmed reporting in the dashboard.
+As a cybersecurity analyst, maintaining visibility across enterprise endpoints, including Windows workstations, Windows and Linux servers, and cloud-hosted systems, is essential for identifying suspicious activity and potential security threats.
+Wazuh agents provide this visibility by collecting security events, system logs, file integrity changes, and authentication activity, then forwarding the information to a centralized SIEM platform for analysis.
 
-> 🔎 **How Wazuh agent enrollment works.** You don't install the agent and hope it finds the server. Instead, the dashboard generates a tailored install command containing the **manager's IP** and a unique **agent name**. Running that command on the endpoint installs the agent *and* registers it with the manager over port **1515** in one step. From then on the agent streams events over **1514**. The agent name must be unique — it's how the manager identifies that endpoint for the rest of its life.
+In this exercise, I deployed and configured a Wazuh agent on a Windows endpoint within the Polarized Systems SOC environment, registered it with the Wazuh server, and started the agent service. This established centralized security monitoring and enabled the Windows endpoint to report security events for analysis and threat detection.
 
 ## Devices
 
