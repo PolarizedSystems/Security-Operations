@@ -6,7 +6,7 @@
 
 ## Overview
 
-As a IT Specialist, monitoring and analyzing network traffic is essential for identifying suspicious activity, detecting potential security threats, and maintaining visibility across enterprise networks.
+As a Information Systems Specialist, monitoring and analyzing network traffic is essential for identifying suspicious activity, detecting potential security threats, and maintaining visibility across enterprise networks.
 
 This exercise demonstrates the use of Wireshark and tcpdump to capture and examine network traffic, providing practical experience with network monitoring and packet analysis techniques.
 
