@@ -88,7 +88,7 @@ The exercise focuses on two primary objectives:
 ## Stakeholder Takeaway
 
 
-> ### 🎤 Stakeholder Takeaway
+> ### Takeaway
 >
 > This exercise demonstrated how **multifactor authentication (MFA)** strengthens Active Directory security by protecting user accounts against compromised credentials.
 >
@@ -98,9 +98,7 @@ The exercise focuses on two primary objectives:
 > - **Credential Security:** Reduced exposure to unauthorized access through stolen passwords.
 > - **Privileged Access:** Highlighted the importance of MFA for administrative and high-risk accounts.
 > - **Security Monitoring:** Identified opportunities to monitor authentication events through Splunk.
->
->
-> **Business Impact:** Strengthens identity security, reduces credential-based attack risks, and improves enterprise access controls.
+> - **Strengthens identity security, reduces credential-based attack risks, and improves enterprise access controls.**
 
 
 ---
