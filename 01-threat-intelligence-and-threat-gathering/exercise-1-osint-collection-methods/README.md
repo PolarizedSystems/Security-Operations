@@ -12,8 +12,6 @@ OSINT encompasses a wide range of information sources, including public records,
 
 The objective of this exercise was to examine OSINT collection methods, intelligence sources, and reconnaissance techniques used to identify publicly exposed information and assess potential organizational security risks. This exercise demonstrates foundational skills in threat intelligence gathering, information analysis, external reconnaissance, and digital footprint assessment.
 
-> 🔎 **Why a small digital footprint matters.** The "priority information" attackers harvest from public sources includes executive email addresses and phone numbers, employee names and roles, overly detailed *About* and careers pages, the website's code and build stack, wireless-network and packet-level details, and the metadata buried inside published images. Any one of them looks harmless on its own; assembled, they become the blueprint for a convincing phishing or pretexting campaign. Limiting what an organization exposes is a frontline defensive control, not an afterthought — which is exactly why an analyst assesses that footprint first.
-
 > ### 🎯 Target Selection & Scope
 >
 > All reconnaissance in this exercise is **passive** and uses only publicly available sources. I did not scan, probe or interact with the target's systems beyond viewing its public website as any visitor would.
