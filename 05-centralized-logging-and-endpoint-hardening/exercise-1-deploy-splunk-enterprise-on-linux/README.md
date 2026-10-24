@@ -375,7 +375,7 @@ For the indexer to accept forwarded data it must be told to listen for it.
 
 ## Takeaway
 
-**Every Windows endpoint can now ship its security, system and application logs to a single hardened collector, where they are retained out of an attacker's reach and searchable in seconds. That is the foundation every other detection capability is built on — failed-logon hunting, privilege-escalation alerting, incident timelines and compliance reporting all depend on the logs being in one trustworthy place. Before this, an investigation meant logging into each machine individually and hoping the local logs hadn't rolled over or been tampered with; now it is a single search.
+Every Windows endpoint can now ship its security, system and application logs to a single hardened collector, where they are retained out of an attacker's reach and searchable in seconds. That is the foundation every other detection capability is built on — failed-logon hunting, privilege-escalation alerting, incident timelines and compliance reporting all depend on the logs being in one trustworthy place. Before this, an investigation meant logging into each machine individually and hoping the local logs hadn't rolled over or been tampered with; now it is a single search.
 
 ---
 
