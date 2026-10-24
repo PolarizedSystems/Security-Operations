@@ -12,11 +12,6 @@ OSINT encompasses a wide range of information sources, including public records,
 
 The objective of this exercise was to examine OSINT collection methods, intelligence sources, and reconnaissance techniques used to identify publicly exposed information and assess potential organizational security risks. This exercise demonstrates foundational skills in threat intelligence gathering, information analysis, external reconnaissance, and digital footprint assessment.
 
-> ### 🎯 Target Selection & Scope
->
-> All reconnaissance in this exercise is **passive** and uses only publicly available sources. I did not scan, probe or interact with the target's systems beyond viewing its public website as any visitor would.
->
-> I first assessed my own domain, `polarizedsystems.com`. Because the domain is newly registered and its public web presence is still in development, it returned minimal data: registrant details are privacy-protected by the registrar, and there is no archived or indexed content yet. A small footprint is a good security outcome, but it doesn't demonstrate the techniques well.
 >
 > ![Own domain WHOIS](../screenshots/exercise-1/e1-00-own-domain-whois.png)
 >
