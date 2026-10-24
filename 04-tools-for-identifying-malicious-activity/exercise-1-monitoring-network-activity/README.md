@@ -307,7 +307,7 @@ Wireshark is a GUI tool; real servers are usually headless, so analysts also cap
 ---
 
 >
-> "We can see and record exactly what's crossing our network. Using free, industry-standard tools, we captured live traffic, arranged it so that unusual destinations and services stand out, and filtered it down to specific conversations. We also showed we can do this on a server with no screen and save the evidence to a file for later review."
+> We can see and record exactly what's crossing our network. Using free, industry-standard tools, we captured live traffic, arranged it so that unusual destinations and services stand out, and filtered it down to specific conversations. We also showed we can do this on a server with no screen and save the evidence to a file for later review.
 
 ---
 
