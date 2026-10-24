@@ -6,7 +6,7 @@
 
 ## Overview
 
-As a cybersecurity analyst, maintaining visibility across different operating systems is essential for effective enterprise security monitoring. Real-world environments rely on both **Windows and Linux infrastructure**, and a centralized SIEM must be capable of monitoring security events, authentication activity, and file integrity changes across both platforms.
+As a Informational Systems Specialist, maintaining visibility across different operating systems is essential for effective enterprise security monitoring. Real-world environments rely on both **Windows and Linux infrastructure**, and a centralized SIEM must be capable of monitoring security events, authentication activity, and file integrity changes across both platforms.
 
 Having successfully enrolled a Windows endpoint, I deployed and configured a **Wazuh Linux agent on `corp-ubuntu-001`** within the Polarized Systems SOC environment. This expanded centralized security visibility across Windows and Linux systems, strengthening **cross-platform threat detection, endpoint monitoring, and security operations**.
 
@@ -101,7 +101,7 @@ Having successfully enrolled a Windows endpoint, I deployed and configured a **W
 
 ---
 
-> ### 🎤 Stakeholder Takeaway
+> ### Takeaway
 >
 > We've now successfully expanded **Wazuh security monitoring across Windows and Linux endpoints**, and have centralized visibility within the Polarized Systems SOC environment.
 >
