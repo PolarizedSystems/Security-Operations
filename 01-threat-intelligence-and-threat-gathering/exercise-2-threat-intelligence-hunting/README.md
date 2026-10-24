@@ -205,7 +205,6 @@ Firewall logs record which connections were allowed and blocked. Without them, i
 
 ---
 >
-> "### 🎤 Stakeholder Takeaway
 
 "Effective threat intelligence combines external threat research with internal security monitoring. By analyzing honeypot activity, identifying password-guessing attempts in system logs, and mapping findings to MITRE ATT&CK, we gain better visibility into attacker behavior. **Centralized logging and threat intelligence help us detect, investigate, and respond to security threats more effectively."
 
