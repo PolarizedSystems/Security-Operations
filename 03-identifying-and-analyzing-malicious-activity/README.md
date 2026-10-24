@@ -17,9 +17,6 @@ The project focuses on two primary areas of security investigation:
 - **Exercise 2 – Active Directory Account & Group Auditing:** Configured Security Group Management auditing through Group Policy and simulated privilege escalation by adding a test account to the Domain Admins group. Analyzed Windows Security Event Logs, including Event IDs `4728` and `4737`, to investigate group membership and security configuration changes.
 
 The objective of this project was to develop practical experience in **system performance analysis, security auditing, privileged account monitoring, and threat detection**. These exercises demonstrate how resource monitoring and Active Directory event analysis improve visibility into suspicious activity and support effective security investigations across enterprise infrastructure.
-.
-
-> 🔎 **The quietest attacks look exactly like normal administration.** Adding a user to Domain Admins isn't an exploit — it's a routine action Active Directory performs legitimately all the time. What makes it *detectable* is not the action but the context: who did it, from where, and whether it was expected. The same holds for resource load, where a malicious process hides inside ordinary CPU and memory usage. Analysis is the skill of separating the one abnormal event from the sea of normal ones it's hiding in.
 
 ---
 
