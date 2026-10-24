@@ -123,7 +123,7 @@ The objective of this exercise was to develop practical experience in **domain v
 
     ![VirusTotal URL details](screenshots/exercise-2/e2-17-virustotal-url-details.png)
 
-> ### 🔎 Three tools, three questions
+
 > | Tool | Answers | Best for |
 > |------|---------|----------|
 > | **WHOIS** | Who owns this domain, and how long has it existed? | Spotting newly registered or anonymously owned domains |
