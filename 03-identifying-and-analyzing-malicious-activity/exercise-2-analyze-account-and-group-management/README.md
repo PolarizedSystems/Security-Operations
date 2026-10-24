@@ -6,7 +6,7 @@
 
 ## Overview
 
-As a Cybersecurity Analyst, monitoring user account privileges is essential for identifying unauthorized access, detecting privilege escalation, and protecting critical enterprise infrastructure.
+Monitoring user account privileges is essential for identifying unauthorized access, detecting privilege escalation, and protecting critical enterprise infrastructure.
 
 Within the Polarized Systems Active Directory environment, I configured security auditing through Group Policy to monitor changes to user accounts and privileged group memberships.
 
