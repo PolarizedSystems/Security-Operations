@@ -189,11 +189,6 @@ The objective of this exercise was to develop practical experience in Active Dir
 > | **4728** | A member was added to a security-enabled **global** group | *Who* was added, *which* group, and *who* did it |
 > | **4737** | A security-enabled **global** group was changed | The group's membership was modified (the companion to 4728) |
 >
----
-
-> ### 🎤 Stakeholder Takeaway
->
-> "We made sure that if anyone is given the keys to the kingdom, we'll know about it. First we turned on auditing for changes to our most powerful security groups. Then we tested it the honest way — we created a new account and gave it full domain-admin rights, exactly as an attacker would — and the system recorded precisely what happened: *this user was added to Domain Admins, by this account, at this time.* The lesson for the business is that unusual privilege changes are now visible and attributable, so a quiet escalation can't happen without leaving a trail we can act on."
 
 ---
 
