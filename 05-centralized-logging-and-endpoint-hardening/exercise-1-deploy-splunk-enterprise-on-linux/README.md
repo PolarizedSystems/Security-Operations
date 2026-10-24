@@ -375,7 +375,9 @@ For the indexer to accept forwarded data it must be told to listen for it.
 
 ## Takeaway
 
-Every Windows endpoint can now ship its security, system and application logs to a single hardened collector, where they are retained out of an attacker's reach and searchable in seconds. That is the foundation every other detection capability is built on — failed-logon hunting, privilege-escalation alerting, incident timelines and compliance reporting all depend on the logs being in one trustworthy place. Before this, an investigation meant logging into each machine individually and hoping the local logs hadn't rolled over or been tampered with; now it is a single search.
+Centralized log collection provides a reliable way to monitor security activity across Windows endpoints. By forwarding security, system, and application logs to a dedicated collector, security teams can investigate failed logins, privilege escalation, and suspicious activity without accessing each machine individually.
+
+**The result is improved threat visibility, faster incident investigations, and a stronger foundation for security monitoring and compliance.**
 
 ---
 
