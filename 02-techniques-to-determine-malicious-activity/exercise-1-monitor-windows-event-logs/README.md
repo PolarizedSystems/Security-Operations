@@ -193,11 +193,11 @@ Running the hunt directly on the Domain Controller works, but in production an a
 >
 > **Key Findings & Security Outcomes:**
 >
-> - **Security Auditing:** Enabled Windows logon auditing through Group Policy to capture and monitor authentication activity.
-> - **Preventive Controls:** Implemented account lockout policies to reduce exposure to brute-force password attacks.
-> - **Threat Detection:** Successfully identified 15 failed authentication attempts within Windows Security Event Logs, demonstrating visibility into suspicious network activity.
-> - **PowerShell Automation:** Developed a script to retrieve and analyze failed logon events (Event ID `4625`), improving the efficiency of security investigations.
-> - **Operational Value:** Established a foundation for centralized authentication monitoring and more efficient incident detection across Windows infrastructure.
+ - **Security Auditing:** Enabled Windows logon auditing through Group Policy to capture and monitor authentication activity.
+ - **Preventive Controls:** Implemented account lockout policies to reduce exposure to brute-force password attacks.
+ - **Threat Detection:** Successfully identified 15 failed authentication attempts within Windows Security Event Logs, demonstrating visibility into suspicious network activity.
+ - **PowerShell Automation:** Developed a script to retrieve and analyze failed logon events (Event ID `4625`), improving the efficiency of security investigations.
+ - **Operational Value:** Established a foundation for centralized authentication monitoring and more efficient incident detection across Windows infrastructure.
 >
 > **Business Impact:** Combining preventive security controls with automated log analysis improves threat visibility, reduces manual investigation efforts, and supports faster identification of potential unauthorized access attempts.
 
