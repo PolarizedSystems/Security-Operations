@@ -78,7 +78,6 @@ In this lab I completed three exercises that together cover the full arc of *col
 - Exercise 2 — Encrypting Sensitive Data (BitLocker, data at rest)
 - Exercise 3 — Enabling Multi-Factor Authentication (smart-card MFA, access hardening)
 
-Centralized logging gives the environment a single, trustworthy place to search every endpoint's events; encryption at rest ensures the data those endpoints hold is useless if the hardware is lost; and enforced MFA ensures a stolen password can't be used to reach any of it. Each control reinforces the others — and in production the hardening events themselves would feed back into the SIEM from Exercise 1.
 
 ### Skills Demonstrated
 
