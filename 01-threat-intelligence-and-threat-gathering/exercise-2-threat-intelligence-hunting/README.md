@@ -204,8 +204,6 @@ Firewall logs record which connections were allowed and blocked. Without them, i
    ![Close GPMC](../screenshots/exercise-2/e2-27-close-gpmc.png)
 
 ---
-
-> ### 🎤 Stakeholder Takeaway
 >
 > "### 🎤 Stakeholder Takeaway
 
