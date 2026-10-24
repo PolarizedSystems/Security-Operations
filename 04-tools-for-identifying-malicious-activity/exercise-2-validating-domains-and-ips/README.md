@@ -130,7 +130,6 @@ The objective of this exercise was to develop practical experience in **domain v
 > | **AbuseIPDB** | Has this IP been reported for attacks before? | Checking an address's community abuse history |
 > | **VirusTotal** | Do security vendors consider this malicious? | A broad reputation check across 90+ engines |
 >
-> Used together they triangulate a verdict: a young domain (WHOIS) on an IP with abuse reports (AbuseIPDB) that several vendors already flag (VirusTotal) is one you block with confidence.
 
 ---
 
