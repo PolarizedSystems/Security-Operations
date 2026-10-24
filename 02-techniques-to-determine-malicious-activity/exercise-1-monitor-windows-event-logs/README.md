@@ -189,7 +189,7 @@ Running the hunt directly on the Domain Controller works, but in production an a
 
 > ### 🎤 Stakeholder Takeaway
 >
-> This exercise demonstrated how **Windows Security auditing, Active Directory Group Policy, and PowerShell automation** can strengthen threat detection and incident response capabilities across enterprise infrastructure.
+ This exercise demonstrated how **Windows Security auditing, Active Directory Group Policy, and PowerShell automation** can strengthen threat detection and incident response capabilities across enterprise infrastructure.
 >
 > Key Findings & Security Outcomes:
 >
