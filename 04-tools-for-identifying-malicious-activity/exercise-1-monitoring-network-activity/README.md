@@ -302,11 +302,10 @@ Wireshark is a GUI tool; real servers are usually headless, so analysts also cap
     ![Ping statistics](screenshots/exercise-1/e1-44-ping-statistics.png)
 
 > ### 🔎 Wireshark vs. tcpdump
-> They solve the same problem from opposite ends. **Wireshark** is the GUI for *analysis* — columns, filters, protocol decoding. **tcpdump** is the lightweight command-line tool for *capture* on enterprise Linux systems where only terminal access is available. Tcpdump output can be exported to a `.pcap` file then opened within Wireshark where you can comfortable anaylze the network capture. 
+> They solve the same problem from opposite ends. **Wireshark** is the GUI for *analysis* — columns, filters, protocol decoding. **tcpdump** is the lightweight command-line tool for *capture* on enterprise Linux systems where only terminal access is available. Tcpdump output can be exported to a `.pcap` file then opened within Wireshark where you can comfortably anaylze the network capture. 
 
 ---
 
-> ### 🎤 Stakeholder Takeaway
 >
 > "We can see and record exactly what's crossing our network. Using free, industry-standard tools, we captured live traffic, arranged it so that unusual destinations and services stand out, and filtered it down to specific conversations. We also showed we can do this on a server with no screen and save the evidence to a file for later review."
 
