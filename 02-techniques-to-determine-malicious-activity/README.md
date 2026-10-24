@@ -71,8 +71,6 @@ By the end of this lab, I was able to:
 
 ---
 
-## Review
-
 ### Summary
 
 In this lab I completed two exercises:
