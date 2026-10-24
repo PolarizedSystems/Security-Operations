@@ -135,7 +135,7 @@ The objective of this exercise was to develop practical experience in **domain v
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "When something suspicious shows up — a strange link in an email, an unfamiliar address in our logs — we can verify whether it's actually dangerous in seconds, without ever touching it. We check who owns the domain and how long it's existed, whether the address has a history of attacks, and whether security vendors across the industry consider it malicious. That means fewer false alarms, faster decisions, and the confidence to block a real threat or clear a harmless one without guessing."
+> When something suspicious shows up — a strange link in an email, an unfamiliar address in our logs — we can verify whether it's actually dangerous in seconds, without ever touching it. We check who owns the domain and how long it's existed, whether the address has a history of attacks, and whether security vendors across the industry consider it malicious. That means fewer false alarms, faster decisions, and the confidence to block a real threat or clear a harmless one without guessing.
 
 ---
 
