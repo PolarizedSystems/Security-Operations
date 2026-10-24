@@ -107,8 +107,7 @@ This exercise demonstrated practical experience in **data encryption, Windows Se
  - **Data Encryption:** Encrypted a server volume to protect sensitive information.
  - **Data Protection:** Reduced the risk of unauthorized access if a physical or virtual disk is stolen or copied.
  - **Compliance:** Demonstrated an encryption control relevant to protecting PII and regulated data.
->
- **Business Impact:** Strengthens data confidentiality, reduces exposure risks, and supports enterprise security and compliance requirements.
+ - **Strengthens data confidentiality, reduces exposure risks, and supports enterprise security and compliance requirements.
 
 ---
 
