@@ -8,7 +8,7 @@
 
 ### Overview
 
-As a **Cybersecurity Analyst**, centralized log collection is essential for identifying suspicious activity, monitoring security events, and supporting investigations across enterprise infrastructure.
+As a **Systems Specialist**, centralized log collection is essential for identifying suspicious activity, monitoring security events, and supporting investigations across enterprise infrastructure.
 
 In this exercise, I deployed **Splunk Enterprise on a Rocky Linux server** within the Polarized Systems SOC environment to establish a centralized logging platform. I also installed and configured the **Splunk Universal Forwarder on a Windows endpoint (`corp-wks-001`)** to collect and transmit Windows event logs to the Splunk Enterprise server.
 
