@@ -235,7 +235,9 @@ The objective of this exercise was to examine OSINT collection methods, intellig
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "Before an attacker sends a single packet, they can learn a great deal about us from public sources: our technology, our related websites, our domain records, and whether our employees' credentials have leaked. I ran that same reconnaissance passively. The defensive value is simple: we can't protect what we don't know is exposed, so we should assess our own footprint the way an attacker would and close the gaps first."
+> "### 🎤 Stakeholder Takeaway
+
+"Passive reconnaissance demonstrates how much information attackers can gather without directly accessing an organization's systems. By examining public records, exposed technologies, and potential credential leaks, we can identify security gaps before they are exploited. **Understanding our external exposure allows us to reduce risk and strengthen our security posture.**
 
 ---
 
