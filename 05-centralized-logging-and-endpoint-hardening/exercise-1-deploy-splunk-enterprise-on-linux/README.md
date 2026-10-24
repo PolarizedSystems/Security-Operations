@@ -4,11 +4,6 @@
 
 ---
 
-## Overview
-
-
-## Exercise 1 – Log Collection with Splunk
-
 ### Overview
 
 
