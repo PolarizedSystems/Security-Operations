@@ -11,6 +11,7 @@ This exercise explores the use of Open-Source Intelligence (OSINT) to collect, e
 OSINT encompasses a wide range of information sources, including public records, government publications, news media, social networking platforms, online forums, and publicly accessible web resources. These sources can provide valuable intelligence about an organization's digital footprint, exposed infrastructure, personnel information, and potential security risks.
 
 The objective of this exercise was to examine OSINT collection methods, intelligence sources, and reconnaissance techniques used to identify publicly exposed information and assess potential organizational security risks. This exercise demonstrates foundational skills in threat intelligence gathering, information analysis, external reconnaissance, and digital footprint assessment.
+>
 
 >
 > ![Own domain WHOIS](../screenshots/exercise-1/e1-00-own-domain-whois.png)
