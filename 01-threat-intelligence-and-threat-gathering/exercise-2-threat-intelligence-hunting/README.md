@@ -160,7 +160,7 @@ The objective of this exercise was to examine threat hunting methodologies, indi
 
 6. **T1548 – Abuse Elevation Control Mechanism** has **6 sub-techniques**, including **Bypass User Account Control**, and applies to Windows, Linux, macOS and cloud platforms.
 
-   > **Why it matters:** Mapping a detection to an ATT&CK technique tells the whole team what the alert means, which stage of the attack it represents and what the attacker is likely to try next.
+   > **Mapping a detection to an ATT&CK technique tells the whole team what the alert means, which stage of the attack it represents and what the attacker is likely to try next.**
 
    ![T1548](../screenshots/exercise-2/e2-21-mitre-t1548.png)
 
