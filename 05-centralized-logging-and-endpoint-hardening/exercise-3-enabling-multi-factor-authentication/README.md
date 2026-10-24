@@ -85,8 +85,6 @@ The exercise focuses on two primary objectives:
 
 ---
 
-## Stakeholder Takeaway
-
 
 > ### Takeaway
 >
