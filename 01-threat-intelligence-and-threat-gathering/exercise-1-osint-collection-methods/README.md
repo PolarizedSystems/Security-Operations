@@ -233,7 +233,7 @@ The objective of this exercise was to examine OSINT collection methods, intellig
 
 ---
 
-> "### 🎤 Stakeholder Takeaway
+> **### 🎤 Stakeholder Takeaway
 
 > **"Passive reconnaissance demonstrates how much information attackers can gather without directly accessing an organization's systems. By examining public records, exposed technologies, and potential credential leaks, we can identify security gaps before they are exploited. **Understanding our external exposure allows us to reduce risk and strengthen our security posture.**
 
