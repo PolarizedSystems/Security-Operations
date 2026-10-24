@@ -99,20 +99,17 @@ This exercise demonstrated practical experience in **data encryption, Windows Se
 
 ---
 
-## Stakeholder Takeaway
-
-
-> ### 🎤 Stakeholder Takeaway
+> ### Takeaway
 >
-> This exercise demonstrated how **Microsoft BitLocker Drive Encryption** protects sensitive data at rest on Windows Server infrastructure.
+ This exercise demonstrated how **Microsoft BitLocker Drive Encryption** protects sensitive data at rest on Windows Server infrastructure.
 >
-> **Key Findings & Security Outcomes:**
+ **Key Findings & Security Outcomes:**
 >
-> - **Data Encryption:** Encrypted a server volume to protect sensitive information.
-> - **Data Protection:** Reduced the risk of unauthorized access if a physical or virtual disk is stolen or copied.
-> - **Compliance:** Demonstrated an encryption control relevant to protecting PII and regulated data.
+ - **Data Encryption:** Encrypted a server volume to protect sensitive information.
+ - **Data Protection:** Reduced the risk of unauthorized access if a physical or virtual disk is stolen or copied.
+ - **Compliance:** Demonstrated an encryption control relevant to protecting PII and regulated data.
 >
-> **Business Impact:** Strengthens data confidentiality, reduces exposure risks, and supports enterprise security and compliance requirements.
+ **Business Impact:** Strengthens data confidentiality, reduces exposure risks, and supports enterprise security and compliance requirements.
 
 ---
 
