@@ -99,7 +99,6 @@ This exercise demonstrated practical experience in **data encryption, Windows Se
 
 ---
 
-> ### Takeaway
 >
  This exercise demonstrated how **Microsoft BitLocker Drive Encryption** protects sensitive data at rest on Windows Server infrastructure.
 >
