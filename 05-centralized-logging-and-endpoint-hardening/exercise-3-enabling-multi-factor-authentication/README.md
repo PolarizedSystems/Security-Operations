@@ -81,7 +81,7 @@ The exercise focuses on two primary objectives:
 
     ![MFA enforced – smart card required](screenshots/exercise-3/e3-11-mfa-enforced.png)
 
-> 🔎 **This refusal is the proof.** The point of the exercise isn't to log in — it's to confirm the control *blocks* single-factor logon. Seeing Active Directory reject a valid-looking username and password, and demand the second factor instead, is the demonstration that the MFA policy is live and enforced at the point of authentication.
+> 🔎 **This refusal is the proof.** The point of the exercise isn't to log in, it's to confirm the control *blocks* single-factor logon. Seeing Active Directory reject a valid-looking username and password, and demand the second factor instead, is the demonstration that the MFA policy is live and enforced when attempting to authenticate.
 
 ---
 
