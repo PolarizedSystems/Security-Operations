@@ -174,7 +174,7 @@ I monitored the Linux server over SSH, the way an analyst reaches a headless ser
 
 ---
 
-> "We can see exactly how our servers are behaving, on both Windows and Linux. On Windows, Process Explorer shows every running process, what it's using, and what launched it so an unfamiliar program chewing up CPU or sending unexpected network traffic stands out immediately. On Linux, the same visibility comes built in with a single command. Once we know what normal looks like, abnormal becomes obvious, and that's usually our first clue that something's wrong."
+> We can see exactly how our servers are behaving, on both Windows and Linux. On Windows, Process Explorer shows every running process, what it's using, and what launched it so an unfamiliar program chewing up CPU or sending unexpected network traffic stands out immediately. On Linux, the same visibility comes built in with a single command. Once we know what normal looks like, abnormal becomes obvious, and that's usually our first clue that something's wrong.
 
 ---
 
