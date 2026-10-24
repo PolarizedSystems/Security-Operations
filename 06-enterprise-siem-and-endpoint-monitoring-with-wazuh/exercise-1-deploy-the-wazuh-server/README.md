@@ -192,7 +192,7 @@ SIEM technology strengthens **enterprise threat visibility, security monitoring,
 
 ---
 
-> ### 🎤 Stakeholder Takeaway
+> ### 🎤 Takeaway
 
 >
 > This exercise demonstrated the successful deployment of **Wazuh**, an open-source SIEM and XDR platform, to strengthen security monitoring alongside Splunk within the Polarized Systems SOC environment.
