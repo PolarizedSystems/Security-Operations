@@ -207,7 +207,9 @@ Firewall logs record which connections were allowed and blocked. Without them, i
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "Threat intelligence works best when outside knowledge meets our own data. Honeynets show that attackers hit internet-facing systems tens of thousands of times a day, and our own logs showed exactly what a successful password-guessing attempt looks like: four failures, then a success. By mapping that activity to MITRE ATT&CK and turning on firewall logging across the domain, we make sure that when something does happen, we can see it, explain it and act on it."
+> "### 🎤 Stakeholder Takeaway
+
+"Effective threat intelligence combines external threat research with internal security monitoring. By analyzing honeypot activity, identifying password-guessing attempts in system logs, and mapping findings to MITRE ATT&CK, we gain better visibility into attacker behavior. **Centralized logging and threat intelligence help us detect, investigate, and respond to security threats more effectively."
 
 ---
 
