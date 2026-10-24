@@ -191,7 +191,7 @@ Running the hunt directly on the Domain Controller works, but in production an a
 >
  This exercise demonstrated how **Windows Security auditing, Active Directory Group Policy, and PowerShell automation** can strengthen threat detection and incident response capabilities across enterprise infrastructure.
 >
-> Key Findings & Security Outcomes:
+ Key Findings & Security Outcomes:
 >
  - **Security Auditing:** Enabled Windows logon auditing through Group Policy to capture and monitor authentication activity.
  - **Preventive Controls:** Implemented account lockout policies to reduce exposure to brute-force password attacks.
