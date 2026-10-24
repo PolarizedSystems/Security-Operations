@@ -66,8 +66,6 @@ By the end of this lab, I was able to:
 
 ---
 
-## Review
-
 ### Summary
 
 In this lab I completed three exercises that build a working, cross-platform SIEM from the ground up:
