@@ -12,7 +12,7 @@ Using Microsoft Sysinternals Process Explorer and Linux utilities such as top an
 
 Monitoring these resources provides valuable insight into performance anomalies, unauthorized processes, and suspicious system behavior.
 
-The objective was to develop practical experience in system administration, resource monitoring, performance troubleshooting, and security analysis within the Polarized Systems SOC environment.
+The objective is to develop practical experience in system administration, resource monitoring, performance troubleshooting, and security analysis within the Polarized Systems SOC environment.
 
 ## Devices
 
