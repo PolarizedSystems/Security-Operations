@@ -77,7 +77,7 @@ The objective of this exercise was to examine threat hunting methodologies, indi
 
 7. Open the **Real-time Attack Map**. The T-Pot honeypot platform recorded **134,593 attacks in 24 hours** (**8,605 in the last hour**), including SSH brute-force attempts captured by **Cowrie** on port 22, VNC probes on port 5900 and VoIP (SIP) abuse on port 5060.
 
-   > **Why it matters:** Any internet-facing service is attacked within minutes of going online. Honeynet data shows which services and source regions are most active, which helps prioritize what to harden and monitor.
+   > **Any internet-facing service is attacked within minutes of going online. Honeynet data shows which services and source regions are most active, which helps prioritize what to harden and monitor.**
 
    ![T-Pot attack map](../screenshots/exercise-2/e2-07-tpot-live-attack-map.png)
 
