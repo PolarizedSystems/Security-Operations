@@ -373,11 +373,9 @@ For the indexer to accept forwarded data it must be told to listen for it.
 
 ---
 
-## Stakeholder Takeaway
+## Takeaway
 
-**What this delivers for the business:** Every Windows endpoint can now ship its security, system and application logs to a single hardened collector, where they are retained out of an attacker's reach and searchable in seconds. That is the foundation every other detection capability is built on — failed-logon hunting, privilege-escalation alerting, incident timelines and compliance reporting all depend on the logs being in one trustworthy place. Before this, an investigation meant logging into each machine individually and hoping the local logs hadn't rolled over or been tampered with; now it is a single search.
-
-**Production next steps I would recommend:** forward the Linux servers' logs to the same indexer, put the Universal Forwarders under a **deployment server** so inputs are managed centrally instead of per-host, enable **TLS on port 9997** so forwarded data is encrypted in transit, and set an **index retention policy** aligned to the organization's compliance requirements. Access to the web console (8000) should be restricted to the admin network and backed by role-based access control.
+**Every Windows endpoint can now ship its security, system and application logs to a single hardened collector, where they are retained out of an attacker's reach and searchable in seconds. That is the foundation every other detection capability is built on — failed-logon hunting, privilege-escalation alerting, incident timelines and compliance reporting all depend on the logs being in one trustworthy place. Before this, an investigation meant logging into each machine individually and hoping the local logs hadn't rolled over or been tampered with; now it is a single search.
 
 ---
 
