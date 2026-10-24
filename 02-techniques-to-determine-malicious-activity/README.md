@@ -71,15 +71,6 @@ By the end of this lab, I was able to:
 
 ---
 
-### Summary
-
-In this lab I completed two exercises:
-
-- Exercise 1 — Monitor Windows Event Logs with a PowerShell Script
-- Exercise 2 — Monitor Login Events on Linux Devices
-
-Across both, I configured the auditing needed to capture authentication activity, generated controlled attacks to produce that activity, and then detected it in the logs — the full "configure, attack, detect" loop a SOC analyst relies on.
-
 ### Skills Demonstrated
 
 - Domain-wide audit policy and account-lockout configuration with Group Policy
