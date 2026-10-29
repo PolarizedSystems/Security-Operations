@@ -13,11 +13,8 @@ Windows Event Logs provide valuable security telemetry for investigating authent
 ## Objectives
 
 - **Security Auditing:** Configure Windows logon auditing policies to capture authentication events and provide visibility into successful and failed logon attempts.
-
 - **Event Generation:** Generate controlled authentication failures to produce security events for investigation and analysis.
-
 - **PowerShell Log Analysis:** Develop a PowerShell script to retrieve and filter Windows Security Event Logs, including failed logon events (Event ID 4625), to identify potential brute-force activity.
-
 - **Brute-Force Mitigation:** Implement account lockout policies to reduce the risk of unauthorized access through repeated password-guessing attempts.
 
 ## Devices
