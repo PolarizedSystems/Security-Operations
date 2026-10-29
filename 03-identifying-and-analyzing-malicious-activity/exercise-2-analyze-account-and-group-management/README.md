@@ -8,7 +8,8 @@
 
 Monitoring user account privileges is essential for identifying unauthorized access as well as detecting privilege escalation.
 To validate these auditing controls, I simulate unauthorized privilege escalation by adding a test account to the Domain Admins group and examine the resulting security events using Windows Event Viewer.
-In this lab we configure security auditing through Group Policy to monitor changes to user accounts and privileged group memberships.
+
+> **In this lab we configure security auditing through Group Policy to monitor changes to user accounts and privileged group memberships**.
 
 
 ## Devices
