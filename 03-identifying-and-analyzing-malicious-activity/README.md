@@ -10,6 +10,7 @@
 
 Security monitoring requires visibility into both system performance and user account activity. Analyzing resource utilization helps identify unusual processes and potential performance anomalies, while auditing Active Directory group membership changes provides critical insight into unauthorized privilege assignments and potential security threats.
 
+---
 ### Learning Outcomes
 
 This lab covers the following exercises:
