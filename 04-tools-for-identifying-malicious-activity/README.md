@@ -9,7 +9,6 @@
 Identifying malicious activity comes down to two questions: *what is actually crossing my network,* and *can I trust the domains and addresses my systems are talking to?* This lab builds hands-on skill with the core tools that answer both. I captured and analyzed live network traffic with Wireshark and tcpdump, then validated domains and IP addresses against public threat-intelligence services.
 
 ### Learning Outcomes
-
 ---
 
 This lab covers the following exercises:
