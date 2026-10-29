@@ -9,7 +9,7 @@
 Windows Security auditing, PowerShell scripting, and authentication monitoring are essential in identifing suspicious logon activity and detecting potential brute-force attacks within an Active Directory environment.
 
 Windows Event Logs provide valuable security telemetry for investigating authentication failures, unauthorized access attempts, and other potentially malicious activities. By configuring audit policies and automating log analysis through PowerShell, security analysts can efficiently identify abnormal authentication patterns and strengthen threat detection capabilities.
-
+---
 ## Objectives
 
 - **Security Auditing:** Configure Windows logon auditing policies to capture authentication events and provide visibility into successful and failed logon attempts.
