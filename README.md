@@ -9,8 +9,6 @@ Security Operations focuses on the continuous **monitoring, detection, investiga
 Polarized Systems is a virtualized network & security environment designed to demonstrate these capabilities through hands-on labs.
 
 The environment consists of multiple segmented networks that are interconnected through a pfSense firewall. The pfSense firewall provides routing between the server, workstation, and SOC networks. I use Windows Active Directory, (`corp.polarizedsystems.com`), to support centralized identity & access management.
-
-> **These labs aim to display practical implementations of security technologies, detection and analysis techniques, and system-hardening practices that are used throughout enterprise network environments**. 
 >
 After completing these exercises, you should be able to:
 
