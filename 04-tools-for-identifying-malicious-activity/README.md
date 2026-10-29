@@ -10,6 +10,8 @@ Identifying malicious activity comes down to two questions: *what is actually cr
 
 ### Learning Outcomes
 
+---
+
 This lab covers the following exercises:
 
 - Exercise 1 – Monitoring Network Activity
