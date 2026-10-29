@@ -13,11 +13,8 @@ Threat hunting involves examining system logs, network activity, authentication 
 Common indicators of malicious activity include:
 
 - **Network Anomalies:** Unusual network traffic, suspicious IP addresses, abnormal DNS activity, and potential distributed denial-of-service (DDoS) activity.
-
 - **Authentication & Access Anomalies:** Repeated failed login attempts, off-hours authentication, unexpected privilege escalation, and unusual access to sensitive files or databases.
-
 - **System Integrity Changes:** Unauthorized modifications to system files, Windows Registry settings, and security configurations.
-
 - **Defense Evasion:** Unexpected clearing of security logs or other attempts to conceal suspicious activity.
 
 ## Devices
