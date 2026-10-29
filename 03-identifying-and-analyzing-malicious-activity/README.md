@@ -13,7 +13,6 @@ Security monitoring requires visibility into both system performance and user ac
 ### Learning Outcomes
 
 This lab covers the following exercises:
-
 - Exercise 1 – Analyze Resource Utilization
 - Exercise 2 – Analyze Account & Group Management
 
