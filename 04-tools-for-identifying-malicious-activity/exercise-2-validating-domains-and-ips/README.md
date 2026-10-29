@@ -14,6 +14,8 @@ Security Professionals often use **WHOIS, AbuseIPDB, and VirusTotal** to investi
 - **AbuseIPDB Reputation Checks:** Investigate reported malicious activity associated with IP addresses to support security assessments.
 - **VirusTotal URL Analysis:** Evaluate web links for potential security threats using VirusTotal.
 
+---
+
 ## Objectives
 - **Validate Domain Names & IP Addresses:** Use WHOIS, AbuseIPDB and VirusTotal to research domain ownership, check IP addresses for a history of abuse, and scan URLs and addresses for malicious reputation.
   
