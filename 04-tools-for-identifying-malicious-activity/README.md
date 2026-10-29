@@ -16,6 +16,8 @@ This lab covers the following exercises:
 - Exercise 1 – Monitoring Network Activity
 - Exercise 2 – Validating Domain Names & IP Addresses
 
+  ---
+
 After completing this lab, you should be able to:
 
 - Capture and analyze live network traffic with Wireshark
